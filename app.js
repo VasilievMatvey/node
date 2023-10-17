@@ -1,26 +1,12 @@
-const path = require("path");
-const fs = require("fs");
-// console.log("Название файла", path.basename(__filename));
-// console.log("Название каталога", path.basename(__dirname));
-// console.log("расширение", path.extname(__filename));
+import express from "express";
 
-// fs.mkdir(path.join(__dirname, "tmp"), function (err) {
-//   if (err) console.error(err);
-//   console.log("папка создана");
-// });
+const app = express();
+const port = "3000";
 
-const filePath = path.join(__dirname, "tmp", "2.txt");
-// fs.writeFile(filePath, "олрларлоав", function (err) {
-//   if (err) console.error(err);
-//   console.log("файл создан");
-// });
-console.log(filePath);
-fs.appendFile(filePath, "\nЕщ", function (err) {
-  if (err) console.error(err);
-  console.log("файл переписан");
+app.get("/as", function (req, res) {
+  res.end("Hello!!!");
 });
 
-fs.readFile(filePath, "utf8", (err, data) => {
-  if (err) console.error(err);
-  console.log(data);
+app.listen(port, () => {
+  console.log(`listen on port ${port}`);
 });
