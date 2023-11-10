@@ -3,14 +3,16 @@ const favicon = require("express-favicon");
 const fs = require("fs");
 const path = require("path");
 const { nextTick } = require("process");
+const ejs = require("ejs");
 
 const app = express();
 const port = "3000";
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
 
 const routeTest = "/test";
 const routeSlash = "/";
 const filePath = path.join(__dirname, "tmp", "1.txt");
-const logg = ``;
 
 fs.writeFile(filePath, `Сервер запущен. Порт: ${port}`, (err) => {
   if (err) console.error(err);
@@ -28,9 +30,12 @@ function logger(port, router) {
   );
 }
 
+console.log(app.get("env"));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "views")));
 app.use(favicon(__dirname + "/public/favicon.ico"));
 
 app.get(routeTest, (req, res) => {
@@ -56,19 +61,6 @@ app.post(routeSlash, function (req, res) {
   res.end("/");
 });
 
-app.use((req, res, next) => {
-  const err = new Error("Couldn't get path");
-  err.staus = 404;
-  console.log(err);
-  next(err);
-});
-
-app.use((req, res, next) => {
-  const err = new Error("Could't get path");
-  err.status = 404;
-  console.log(err);
-  next(err);
-});
 app.get("env") == "production";
 console.log(app.get("env"));
 if (app.get("env") == "production") {
@@ -77,6 +69,27 @@ if (app.get("env") == "production") {
     res.sendFile(err.message);
   });
 }
+
 app.listen(port, () => {
   console.log(`listen on port ${port}`);
 });
+
+//ERROR HANDLER
+app.use((req, res, next) => {
+  const err = new Error("Could't get path");
+  err.status = 404;
+  next(err);
+});
+
+if (app.get("env") != "development") {
+  app.use(function (err, req, res, next) {
+    console.log(err.status, err.message);
+    res.status = 404;
+    link = "https://centralsib.com/media/gallery/kukushka.jpg";
+    res.render("error.ejs", { err, link });
+  });
+} else {
+  app.use(function (err, req, res, next) {
+    console.log(app.get("env"), err.status, err.message);
+  });
+}
