@@ -1,7 +1,11 @@
-$color_1: #6c757d;
-$background-color_1: #f0d8f2;
+.nav-item {
+  a {
+    text-decoration: none;
 
-.footer__text {
+    color: #000;
+  }
+}
+
+.text {
   font-size: 24px;
-  color: $color_1 !important;
 }

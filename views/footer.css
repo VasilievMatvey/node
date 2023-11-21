@@ -1,4 +1,8 @@
-.footer__text {
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.text {
   font-size: 24px;
-  color: #6c757d !important;
 }/*# sourceMappingURL=footer.css.map */
