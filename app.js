@@ -35,11 +35,15 @@ console.log(app.get("env"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "css")));
 app.use(express.static(path.join(__dirname, "views")));
 app.use(
-  "css/bootstrap-5.3.2",
+  "/css/bootstrap.css",
   express.static(
-    path.join(__dirname, "css/bootstrap-5.3.2/dist/css/bootstrap.min.css")
+    path.join(
+      __dirname,
+      "public/css/bootstrap-5.3.2/dist/css/bootstrap.min.css"
+    )
   )
 );
 app.use(favicon(__dirname + "/public/favicon.ico"));
