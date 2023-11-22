@@ -6,6 +6,7 @@ const { nextTick } = require("process");
 const ejs = require("ejs");
 
 const app = express();
+const myRoutes = require("./routers/index_routers");
 const port = "3000";
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -37,6 +38,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "css")));
 app.use(express.static(path.join(__dirname, "views")));
+
 app.use(
   "/css/bootstrap.css",
   express.static(
@@ -46,31 +48,14 @@ app.use(
     )
   )
 );
+
 app.use(favicon(__dirname + "/public/favicon.ico"));
 
-app.get(routeTest, (req, res) => {
-  logger(port, routeTest);
-  res.end("/test");
-});
-app.post(routeTest, (req, res) => {
-  console.log("Прошли по пути post/test");
-  logger(port, routeTest);
-  res.end("post/test");
-});
-console.log(__dirname + "/public/favicon.ico");
-app.get(routeSlash, function (req, res) {
-  logger(port, routeSlash);
-  res.end();
-});
-app.get(routeSlash, function (req, res) {
-  logger(port, routeSlash);
-  res.end("/");
-});
-app.post(routeSlash, function (req, res) {
-  logger(port, routeSlash);
-  res.end("/");
-});
+app.use(myRoutes);
 
+app.listen(port, () => {
+  console.log(`listen on port ${port}`);
+});
 app.get("env") == "production";
 console.log(app.get("env"));
 if (app.get("env") == "production") {
@@ -79,11 +64,6 @@ if (app.get("env") == "production") {
     res.sendFile(err.message);
   });
 }
-
-app.listen(port, () => {
-  console.log(`listen on port ${port}`);
-});
-
 //ERROR HANDLER
 app.use((req, res, next) => {
   const err = new Error("Could't get path");
