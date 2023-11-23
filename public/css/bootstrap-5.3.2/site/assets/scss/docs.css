@@ -670,7 +670,7 @@
 
 @media (max-width: 991.98px) {
   .DocSearch-Button-Keys,
-.DocSearch-Button-Placeholder {
+  .DocSearch-Button-Placeholder {
     display: none;
   }
 }
@@ -912,7 +912,7 @@
 }
 @media (max-width: 991.98px) {
   .bd-content > .table.table-bordered,
-.bd-content > .table-responsive .table.table-bordered {
+  .bd-content > .table-responsive .table.table-bordered {
     border: 0;
   }
 }
@@ -1038,7 +1038,6 @@
 
 @media (min-width: 992px) {
   .bd-sidebar {
-    position: -webkit-sticky;
     position: sticky;
     top: 5rem;
     display: block !important;
@@ -1153,7 +1152,6 @@
 
 @media (min-width: 992px) {
   .bd-toc {
-    position: -webkit-sticky;
     position: sticky;
     top: 5rem;
     right: 0;
@@ -2538,7 +2536,7 @@
 }
 @media (min-width: 768px) {
   .bd-clipboard,
-.bd-edit {
+  .bd-edit {
     display: block;
   }
 }
@@ -2573,7 +2571,6 @@
   font-size: 1.125rem;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   text-anchor: middle;
 }
@@ -2914,7 +2911,6 @@ main [tabindex="0"] {
   content: "$ ";
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .chroma .language-powershell::before {
@@ -2922,7 +2918,6 @@ main [tabindex="0"] {
   content: "PM> ";
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
