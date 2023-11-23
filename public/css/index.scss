@@ -23,3 +23,23 @@
   --bs-btn-disabled-border-color: #198754;
   --bs-gradient: none;
 }
+
+.register-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh;
+  div {
+    max-width: 1000px;
+  }
+}
+
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 22vh;
+  div {
+    max-width: 1000px;
+  }
+}
