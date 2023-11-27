@@ -5,9 +5,21 @@ const path = require("path");
 const { nextTick } = require("process");
 const ejs = require("ejs");
 
+const Sequelize = require("sequelize");
+const sqlite = require("sqlite3");
+
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const port = "3000";
+
+//SQLite3 conect
+const sequelize = new Sequelize({
+  dialect: "sqlite",
+  storage: "test.sqlite",
+  define: {
+    timestamps: false,
+  },
+});
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -63,6 +75,40 @@ if (app.get("env") == "production") {
     res.sendFile(err.message);
   });
 }
+
+const User = sequelize.define("user", {
+  id: {
+    type: Sequelize.INTEGER,
+    autoIncrement: true,
+    primaryKey: true,
+    allowNull: false,
+  },
+  name: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
+  age: {
+    type: Sequelize.INTEGER,
+    allowNull: false,
+  },
+});
+
+sequelize
+  .sync()
+  .then((result) => {
+    // console.log(result);
+  })
+  .catch((err) => console.log(err));
+
+User.create({
+  name: "Bob",
+  age: 31,
+})
+  .then((res) => {
+    const user = { id: res.id, name: res.name, age: res.age };
+    console.log(user);
+  })
+  .catch((err) => console.log(err));
 //ERROR HANDLER
 app.use((req, res, next) => {
   const err = new Error("Could't get path");
