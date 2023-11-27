@@ -100,13 +100,19 @@ sequelize
   })
   .catch((err) => console.log(err));
 
-User.create({
-  name: "Bob",
-  age: 31,
-})
-  .then((res) => {
-    const user = { id: res.id, name: res.name, age: res.age };
-    console.log(user);
+// User.create({
+//   name: "Bob",
+//   age: 31,
+// })
+//   .then((res) => {
+//     const user = { id: res.id, name: res.name, age: res.age };
+//     console.log(user);
+//   })
+//   .catch((err) => console.log(err));
+
+User.findAll({ raw: true })
+  .then((users) => {
+    console.log(users);
   })
   .catch((err) => console.log(err));
 //ERROR HANDLER
