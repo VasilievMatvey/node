@@ -1,5 +1,13 @@
+const User = require("../models/user");
 exports.form = (req, res) => {
   res.render("registerForm", {});
 };
 
-exports.submit = (req, res) => {};
+exports.submit = (req, res, next) => {
+  if(!Игорь в базе данный есть?){
+    
+  }
+
+
+  User.create(req.body.user, cb);
+};
