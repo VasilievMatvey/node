@@ -9,13 +9,7 @@ router.post("/", function (req, res) {
   res.end("/");
 });
 
-router.get(
-  "/register",
-  register.form
-  // function (req, res) {
-  // //   res.render("register.ejs");
-  // // }
-);
+router.get("/register", register.form);
 router.post("/register", function (req, res) {});
 
 router.get("/login", function (req, res) {
