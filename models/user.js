@@ -4,7 +4,7 @@ const res = require("express/lib/response");
 const db = new sqlite3.Database("test.sqlite");
 
 const sql =
-  "CREATE TABLE IF NOT EXISTS users(id INT PRIMARY KEY AUTOINCREMENT, email TEXT NOT NULL, password TEXT NOT NULL, age INT NOT NULL, name TEXT NOT NULL)";
+  "CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT NOT NULL, email TEXT NOT NULL, password TEXT NOT NULL, age INT NOT NULL)";
 
 db.run(sql);
 
@@ -15,8 +15,9 @@ class User {
       const salt = await bcrypt.genSalt(10);
       const hash = await bcrypt.hash(dataForm.password, salt);
 
-      const sql1 = "INSERT INTO users (email, password, age) VALUES (?, ?, ?)";
-      db.run(sql1, dataForm.email, hash, dataForm.age, cb);
+      const sql1 =
+        "INSERT INTO users (name, email, password, age) VALUES (?, ?, ?, ?)";
+      db.run(sql1, dataForm.name, dataForm.email, hash, dataForm.age, cb);
     } catch (error) {
       if (error) return next(error);
     }

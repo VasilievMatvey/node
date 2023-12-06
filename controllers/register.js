@@ -4,10 +4,14 @@ exports.form = (req, res) => {
 };
 
 exports.submit = (req, res, next) => {
-  if(!Игорь в базе данный есть?){
-    
-  }
+  User.findByEmail(req.body.dataForm.email, (error, user) => {
+    if (!user) {
+      User.create(req.body.user, (err) => {
+        if (err) return next(err);
+      });
+    }
 
-
-  User.create(req.body.user, cb);
+    res.error("Такой пользователь в базе уже существует");
+    res.redirect("/");
+  });
 };
