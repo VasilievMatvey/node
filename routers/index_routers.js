@@ -6,10 +6,9 @@ const logout = require("../controllers/logout");
 const entries = require("../controllers/entries");
 const entry = require("../controllers/entry");
 const post = require("../controllers/post");
+const index = require("../controllers/index");
 
-router.get("/", (req, res) => {
-  res.end("/");
-});
+router.get("/", index);
 
 // router.get("/entries", entries.list);
 // router.post("/entry", entry.post);
