@@ -8,9 +8,8 @@ const entry = require("../controllers/entry");
 const post = require("../controllers/post");
 const index = require("../controllers/index");
 
-router.get("/", index);
+router.get("/", entries.list);
 
-// router.get("/entries", entries.list);
 // router.post("/entry", entry.post);
 
 router.get("/register", register.form);
