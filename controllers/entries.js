@@ -13,8 +13,9 @@ exports.form = (req, res) => {
 
 exports.submit = (req, res, next) => {
   try {
-    const username = req.user ? req.user.username : null;
-    const data = req.body.Entry;
+    const username = req.user ? req.user.name : null;
+    const data = req.body.entry;
+
     const entry = {
       username: username,
       title: data.title,

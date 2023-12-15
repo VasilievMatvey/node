@@ -9,7 +9,7 @@ db.run(sql);
 class Entry {
   constructor() {}
 
-  static create(postForm) {
+  static create(data) {
     const sql = "INSERT INTO entries (username, title, content) VALUES (?,?,?)";
     db.run(sql, data.username, data.title, data.content);
   }

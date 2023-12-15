@@ -13,7 +13,7 @@ exports.submit = (req, res, next) => {
       User.create(req.body, (err) => {
         if (err) return next(err);
         req.session.userEmail = req.body.email;
-        req.session.user = req.body.name;
+        req.session.userName = req.body.name;
         res.redirect("/");
       });
     }
