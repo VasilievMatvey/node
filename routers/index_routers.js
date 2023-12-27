@@ -9,6 +9,11 @@ router.get("/", entries.list);
 router.get("/post", entries.form);
 router.post("/post", entries.submit);
 
+router.get("/update/:id", entries.updateForm);
+router.post("/update/:id", entries.updateSubmit);
+
+router.delete("/:id", entries.delete);
+
 router.get("/register", register.form);
 router.post("/register", register.submit);
 
