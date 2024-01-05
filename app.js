@@ -2,49 +2,21 @@ const express = require("express");
 const favicon = require("express-favicon");
 const fs = require("fs");
 const path = require("path");
-const { nextTick } = require("process");
 const ejs = require("ejs");
 const session = require("express-session");
-const methodOverride = require("method-override");
-
 const userSession = require("./middleware/user_session");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const port = "3000";
 
-const filePath = path.join(__dirname, "tmp", "1.txt");
-
-//MySql server conection
-const mysql = require("mysql2");
-const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  database: "serverdb",
-  password: "123qweasz",
-});
-
-connection.connect((err) => {
-  if (err) {
-    return console.log(`Ошибка: ${err.message}`);
-  } else {
-    console.log("Подключение к серверу MySQL успешно установлено");
-  }
-});
-
-//
-
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
-
-console.log(app.get("env"));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "css")));
 app.use(express.static(path.join(__dirname, "views")));
-
-app.use(methodOverride("_method"));
 
 app.use(
   session({
@@ -74,16 +46,12 @@ app.listen(port, () => {
 });
 
 app.get("env") == "production";
-
-console.log(app.get("env"));
-
 if (app.get("env") == "production") {
   app.use((req, res, err) => {
     res.status(err.status);
     res.sendFile(err.message);
   });
 }
-
 //ERROR HANDLER
 app.use((req, res, next) => {
   const err = new Error("Could't get path");

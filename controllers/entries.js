@@ -25,7 +25,7 @@ exports.submit = (req, res, next) => {
     };
 
     Entry.create(entry);
-    res.redirect("/");
+    res.redirect("/posts");
   } catch (err) {
     return next(err);
   }
@@ -38,7 +38,7 @@ exports.delete = (req, res, next) => {
     if (err) {
       return next(err);
     }
-    res.redirect("/");
+    res.redirect("/posts");
   });
 };
 
@@ -46,7 +46,7 @@ exports.updateForm = (req, res) => {
   const entryId = req.params.id;
   Entry.getEntryById(entryId, (err, entry) => {
     if (err) {
-      return res.redirect("/");
+      return res.redirect("/posts");
     }
     res.render("update", { title: "Update", entry: entry });
   });
@@ -63,6 +63,6 @@ exports.updateSubmit = (req, res, next) => {
     if (err) {
       return next(err);
     }
-    res.redirect("/");
+    res.redirect("/posts");
   });
 };

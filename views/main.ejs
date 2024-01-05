@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+  </head>
+  <body>
+    <header><%- include(`./partials/header`) %></header>
+    <div class="content">
+      <div class="main">
+        <% if (locals.user) { %>
+        <h4 class="main__header">
+          Добро пожаловать на сайт! Вы вошли на сайт, как: <%= locals.user.name
+          %>
+        </h4>
+        <p class="main__content">
+          Здесь вы сможите публиковать и просматривать посты других
+          пользователей.
+        </p>
+        <% } else { %>
+        <h4 class="main__header">Добро пожаловать на сайт!</h4>
+        <p class="main__content">
+          Здесь вы сможите публиковать и просматривать посты других
+          пользователей.
+        </p>
+        <p>
+          Для того, что бы продолжить пользоваться сайтом, войтите в аккаунт или
+          зарегистрируйтесь.
+        </p>
+        <% } %>
+      </div>
+    </div>
+    <footer><%- include(`./partials/footer`) %></footer>
+  </body>
+</html>
