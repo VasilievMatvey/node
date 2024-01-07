@@ -13,7 +13,7 @@
       <h1><%= title %></h1>
       <%#- include ('./partials/messages') %>
       <p>Заполните форму ниже чтобы изменить пост</p>
-      <form method="post" action="/update/<%= entry.id %>?_method=PUT>">
+      <form method="post" action="/update/<%= entry.id %>">
         <div class="mb-3">
           <label for="z" class="form-label">Title</label>
           <input
