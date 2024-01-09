@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
+<nav class="navbar navbar-expand-sm bg-dark text-light">
   <div class="container">
     <div class="nav__brand">
+      <a class="navbar-brand" href="/">News</a>
       <button
         class="navbar-toggler d-lg-none"
         type="button"
@@ -17,15 +18,15 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav me-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="/" aria-current="page"
+          <a class="nav-link header-link" href="/" aria-current="page"
             >Главная<span class="visually-hidden">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/posts">Записи</a>
+          <a class="nav-link header-link" href="/posts">Записи</a>
         </li>
         <li class="nav-item">
-          <a href="/logout" class="nav-link">Выйти</a>
+          <a href="/logout" class="nav-link header-link">Выйти</a>
         </li>
       </ul>
       <p class="user-name"><%= locals.user.name %></p>
@@ -34,15 +35,15 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav me-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="/" aria-current="page"
+          <a class="nav-link header-link" href="/" aria-current="page"
             >Главная<span class="visually-hidden">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/login">Войти</a>
+          <a class="nav-link header-link" href="/login">Войти</a>
         </li>
         <li class="nav-item">
-          <a href="/register" class="nav-link">Регистрация</a>
+          <a href="/register" class="nav-link header-link">Регистрация</a>
         </li>
       </ul>
     </div>

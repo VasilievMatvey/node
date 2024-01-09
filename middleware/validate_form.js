@@ -8,7 +8,7 @@ module.exports = (req, res, next) => {
 
   if (!isValidPassword(password)) {
     res.status(400).json({
-      error: `Ваш пароль должен быть больше 8 символов, содержать заглавные буквы и цифры и иметь спец. символ`,
+      error: `Ваш пароль должен быть не менее 8 символов, содержать хотя бы одну цифру, одну заглавную и одну строчную букву`,
     });
     return res.redirect(`/login`);
   }
@@ -20,11 +20,10 @@ module.exports = (req, res, next) => {
 };
 
 function validateEmail(email) {
-  const emailPattern =
-    /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/g;
+  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
   return emailPattern.test(email);
 }
 function isValidPassword(pass) {
-  const passPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/gm;
+  const passPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
   return passPattern.test(pass);
 }

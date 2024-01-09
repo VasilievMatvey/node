@@ -35,6 +35,12 @@ app.use(
     )
   )
 );
+app.use(
+  "/js/bootstrap.js",
+  express.static(
+    path.join(__dirname, "public/css/bootstrap-5.3.2/dist/js/bootstrap.min.js")
+  )
+);
 
 app.use(favicon(__dirname + "/public/favicon.ico"));
 

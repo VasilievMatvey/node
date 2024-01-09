@@ -5,12 +5,12 @@ exports.list = (req, res, next) => {
     if (err) return next(err);
 
     const userData = req.user;
-    res.render("entries", { title: "List", entries: entries, user: userData });
+    res.render("entries", { title: "Посты", entries: entries, user: userData });
   });
 };
 
 exports.form = (req, res) => {
-  res.render("post", { title: "Post" });
+  res.render("post", { title: "Создание поста" });
 };
 
 exports.submit = (req, res, next) => {
@@ -49,7 +49,7 @@ exports.updateForm = (req, res) => {
       console.log(err);
       return res.redirect("posts");
     }
-    await res.render("update", { title: "Update", entry: entry });
+    await res.render("update", { title: "Изменение поста", entry: entry });
   });
 };
 
