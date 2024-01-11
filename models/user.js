@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
 
 connection.connect((err) => {
   if (err) {
-    console.error("Error connecting to MySQL database", err);
+    console.error("Ошибка подключения к базе данных MySql", err);
     return;
   }
 });
@@ -27,7 +27,7 @@ const sql = `
 
 connection.query(sql, (err, results) => {
   if (err) {
-    console.error("Error creating users table", err);
+    console.error("Ошибка создания таблицы users", err);
     return;
   }
 });
@@ -45,7 +45,7 @@ class User {
       [name, email, password, age, isAdmin],
       (err, results) => {
         if (err) {
-          console.error("Error creating user", err);
+          console.error("Ошибка создания пользователя", err);
           return cb(err);
         }
         cb(null, results.insertId);
@@ -57,7 +57,7 @@ class User {
     const sql = "SELECT * FROM users WHERE email = ?";
     connection.query(sql, [email], (err, rows) => {
       if (err) {
-        console.error("Error finding user by email", err);
+        console.error("Ошибка в поиске пользователя по email", err);
         return cb(err);
       }
       if (!rows || rows.length === 0) {
@@ -70,7 +70,7 @@ class User {
   static authentificate(dataForm, cb) {
     User.findByEmail(dataForm.email, (err, user) => {
       if (err) {
-        console.error("Error authenticating user", err);
+        console.error("Ошибка аутификации пользователя", err);
         return cb(err);
       }
 

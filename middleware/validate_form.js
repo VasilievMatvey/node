@@ -1,5 +1,3 @@
-const register = require("../controllers/register");
-
 module.exports = (req, res, next) => {
   const { name, email, password } = req.body;
   if (!name || !email || !password) {

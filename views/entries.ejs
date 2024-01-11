@@ -24,8 +24,9 @@
                     <%= entry.content %> 
                 </p>
                 </br>
-                <h6>Запостил :   <%= entry.username %> </h6>                
-                <% if(locals.admin){ %>
+                <h6>Запостил :   <%= entry.username %> </h6>      
+                      
+            <% if (locals.admin || entry.username === locals.user.name) { %> 
                 <a href="/update/<%= entry.id %>" class="btn-update">
                     <i class="fa-solid fa-pen-to-square"></i>
                 </a>
@@ -33,8 +34,8 @@
                     <i class="fas fa-trash-alt" ></i>
                 </a>
          
-                <%}%>
-                
+            %}%>
+              
             </div>
         </div> 
         </br>
