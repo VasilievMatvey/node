@@ -5,6 +5,7 @@ const path = require("path");
 const ejs = require("ejs");
 const session = require("express-session");
 const userSession = require("./middleware/user_session");
+const messages = require("./middleware/messages");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const port = "3000";
@@ -44,6 +45,7 @@ app.use(
 
 app.use(favicon(__dirname + "/public/favicon.ico"));
 
+app.use(messages);
 app.use(userSession);
 app.use(myRoutes);
 
