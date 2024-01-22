@@ -4,6 +4,7 @@ const register = require("../controllers/register");
 const login = require("../controllers/login");
 const entries = require("../controllers/entries");
 const validation = require("../middleware/validate_form");
+const validate = require("../middleware/validate");
 
 router.get("/", (req, res) => {
   res.render("main", {
@@ -14,7 +15,13 @@ router.get("/", (req, res) => {
 router.get("/posts", entries.list);
 
 router.get("/post", entries.form);
-router.post("/post", entries.submit);
+router.post(
+  "/post",
+  validate.required("entry[title]"),
+  validate.required("entry[content]"),
+  validate.lengthAbove("entry[title]"),
+  entries.submit
+);
 
 router.get("/update/:id", entries.updateForm);
 router.post("/update/:id", entries.updateSubmit);

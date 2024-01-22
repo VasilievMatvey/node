@@ -1,4 +1,4 @@
-// const User = require("../models/user");
+const express = require("express");
 
 function message(req) {
   return (msg, type) => {
@@ -10,14 +10,13 @@ function message(req) {
 }
 
 module.exports = function (req, res, next) {
-  res.message = message(req, "error");
+  res.pushFunction = message(req);
   res.error = (msg) => {
-    return res.message(msg);
+    return res.pushFunction(msg, "error");
   };
-  res.locals.message = req.session.messages || [];
-  res.locals.removeMessage = function () {
-    res.session.message;
+  res.locals.messages = req.session.messages || [];
+  res.locals.removeMessages = function () {
+    req.session.messages = [];
   };
-
   next();
 };
