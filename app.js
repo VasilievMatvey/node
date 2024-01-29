@@ -4,11 +4,15 @@ const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs");
 const session = require("express-session");
+require("dotenv").config();
 const userSession = require("./middleware/user_session");
 const messages = require("./middleware/messages");
+// const morgan = require("morgan");
 const app = express();
 const myRoutes = require("./routers/index_routers");
-const port = "3000";
+const port = process.env.PORT || "3000";
+
+// app.use(morgan("combined"));
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -21,7 +25,7 @@ app.use(express.static(path.join(__dirname, "views")));
 
 app.use(
   session({
-    secret: "aboba",
+    secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
   })
