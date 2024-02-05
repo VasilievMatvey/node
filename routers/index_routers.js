@@ -16,9 +16,9 @@ router.get("/post", entries.form);
 
 router.post(
   "/post",
-  // validate.required("[entry[title]]"),
-  // validate.required("entry[content]"),
-  // validate.lengthAbove("[entry[title]]", 4),
+  validate.required("[entry[title]]"),
+  validate.required("entry[[content]]"),
+  validate.lengthAbove("[entry[title]]", 4),
   entries.submit
 );
 

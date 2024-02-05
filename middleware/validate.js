@@ -13,7 +13,7 @@ exports.required = (field) => {
     if (getField(req, parsedField)) {
       next();
     } else {
-      res.error(`Поле ${field.join(" ")} не заполнено`); //готовит сообщение пользователю
+      res.error(`Поле ${parsedField.join(" ")} не заполнено`); //готовит сообщение пользователю
       res.redirect("back");
     }
   };
