@@ -26,15 +26,16 @@
                 </br>
                 <h6>Запостил :   <%= entry.username %> </h6>      
                       
-            <% if (locals.admin || entry.username === locals.user.name) { %> 
-                <a href="/update/<%= entry.id %>" class="btn-update">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                </a>
-                <a href="/delete/<%= entry.id %>" class="btn-delete">
-                    <i class="fas fa-trash-alt" ></i>
-                </a>
-         
-            %}%>
+                <%if(locals.user){%>
+                    <% if (locals.admin || entry.username === locals.user.name) { %> 
+                    <a href="/update/<%= entry.id %>" class="btn-update">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <a href="/delete/<%= entry.id %>" class="btn-delete">
+                        <i class="fas fa-trash-alt" ></i>
+                    </a>
+                    <%}%>
+                <%}%>
               
             </div>
         </div> 
