@@ -25,6 +25,7 @@
                 </p>
                 </br>
                 <h6>Запостил :   <%= entry.username %> </h6>      
+<<<<<<< HEAD
                       
                 <%if(locals.user){%>
                     <% if (locals.admin || entry.username === locals.user.name) { %> 
@@ -37,6 +38,20 @@
                     <%}%>
                 <%}%>
               
+=======
+              <%if(locals.user){%>
+                <% if (locals.admin || entry.username === locals.user.name) { %> 
+                <a href="/update/<%= entry.id %>" class="btn-update">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </a>
+                <a href="/delete/<%= entry.id %>" class="btn-delete">
+                    <i class="fas fa-trash-alt" ></i>
+                </a>
+                <%}%>
+            <%}%>
+            
+        
+>>>>>>> c52108ce4f52ba31cb7523c2c49c7f695156cce8
             </div>
         </div> 
         </br>

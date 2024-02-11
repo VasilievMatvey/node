@@ -1,13 +1,14 @@
 const User = require("../models/user");
+const validate = require("../middleware/validate");
+const messanger = "https://kappa.lol/iSONv";
 exports.form = (req, res) => {
-  res.render("loginForm", { title: "Login" });
+  res.render("loginForm", { title: "Login", messanger: messanger });
 };
-
 exports.submit = (req, res, next) => {
   User.authentificate(req.body.loginForm, (error, data) => {
     if (error) return next(error);
     if (!data) {
-      console.log("Имя или пароль неверный");
+      res.error("Имя или пароль неверный");
       res.redirect("back");
     } else {
       req.session.userEmail = data.email;

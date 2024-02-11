@@ -15,8 +15,9 @@
   <body>
     <header><%- include('./partials/header'); %></header>
     <section class="register-content">
-        <div class="container-fluid">
-            <h1 class="text-center">Регистрация</h1>
+      <div class="container-fluid">
+        <h1 class="text-center">Регистрация</h1>
+        <%- include('./partials/messages') %>
             <form action="/register" method="post" name="user" class="p-3">
               <div class="row g2 g-5">
                 <div class="col-12 col-sm-6">
