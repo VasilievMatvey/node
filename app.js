@@ -11,7 +11,7 @@ const messages = require("./middleware/messages");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const port = process.env.PORT || "3000";
-
+const logger = require("./logger/index");
 // app.use(morgan("combined"));
 
 app.set("view engine", "ejs");
@@ -53,6 +53,8 @@ app.use(messages);
 app.use(userSession);
 app.use(myRoutes);
 
+logger.info(`listen on port ${port}`);
+
 app.listen(port, () => {
   console.log(`listen on port ${port}`);
 });
@@ -76,10 +78,11 @@ if (app.get("env") != "development") {
     console.log(err.status, err.message);
     res.status = 404;
     link = "https://centralsib.com/media/gallery/kukushka.jpg";
-    res.render("error.ejs", { err, link });
+    res.render("error.ejs", { title: "Error", err, link });
   });
 } else {
   app.use(function (err, req, res, next) {
     console.log(app.get("env"), err.status, err.message);
+    logger.error(`${app.get("env")} ${err.status} ${err.message}`);
   });
 }

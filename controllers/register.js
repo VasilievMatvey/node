@@ -1,12 +1,18 @@
+const logger = require("../logger/index");
 const User = require("../models/user");
+
 exports.form = (req, res) => {
   res.render("registerForm", { title: "Register" });
 };
 
 exports.submit = (req, res, next) => {
   User.findByEmail(req.body.email, (error, user) => {
-    if (error) return next(error);
+    if (error) {
+      logger.error(`Произошла ошибка: ${error}`);
+      return next(error);
+    }
     if (user) {
+      logger.error("Такой пользователь в базе уже существует");
       res.error("Такой пользователь в базе уже существует");
       res.redirect("/");
     } else {

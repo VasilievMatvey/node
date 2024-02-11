@@ -1,0 +1,25 @@
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-11T19:57:37.074Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-11T19:58:35.837Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-11T19:59:31.163Z'
+}
+{
+  message: "development, 404, Could't get path",
+  level: 'error',
+  timestamp: '2024-02-11T20:08:45.878Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-11T20:09:06.303Z'
+}

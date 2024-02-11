@@ -1,0 +1,125 @@
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:48:32.942Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:48:38.242Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:48:57.848Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:50:47.930Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:51:47.925Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:52:17.520Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:53:20.827Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:54:05.440Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:54:20.971Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:55:21.177Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:55:53.040Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:55:55.766Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:56:59.982Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-11T19:57:37.074Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-11T19:58:35.837Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T19:59:14.811Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-11T19:59:31.163Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T20:01:51.756Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T20:03:47.519Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T20:06:03.029Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T20:06:18.478Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T20:08:38.284Z'
+}
+{
+  message: "development, 404, Could't get path",
+  level: 'error',
+  timestamp: '2024-02-11T20:08:45.878Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-11T20:09:06.133Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-11T20:09:06.303Z'
+}
