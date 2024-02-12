@@ -123,3 +123,158 @@
   level: 'error',
   timestamp: '2024-02-11T20:09:06.303Z'
 }
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T06:02:31.313Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-12T06:02:51.432Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T06:57:24.512Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T06:58:41.071Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-12T06:58:45.321Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T06:59:29.510Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T06:59:37.260Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-02-12T07:00:06.106Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T07:00:38.496Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T07:01:17.998Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T07:01:55.588Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T07:02:06.559Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T07:02:28.921Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-12T07:03:13.145Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-02-12T07:03:43.253Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-12T07:03:47.462Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-12T07:03:51.455Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-12T07:04:02.405Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-12T07:04:09.632Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-02-12T07:04:50.237Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-02-12T07:04:56.595Z'
+}
+{
+  message: "development undefined Column 'username' cannot be null",
+  level: 'error',
+  timestamp: '2024-02-12T07:05:09.189Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-12T07:06:49.239Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-12T07:06:52.167Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-02-12T07:06:59.310Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-12T07:06:59.329Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-02-12T07:07:03.121Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-02-12T07:07:07.439Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-02-12T07:07:12.385Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-02-12T07:08:46.642Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-12T07:08:49.544Z'
+}

@@ -53,8 +53,6 @@ app.use(messages);
 app.use(userSession);
 app.use(myRoutes);
 
-logger.info(`listen on port ${port}`);
-
 app.listen(port, () => {
   console.log(`listen on port ${port}`);
 });

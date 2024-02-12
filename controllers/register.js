@@ -2,6 +2,7 @@ const logger = require("../logger/index");
 const User = require("../models/user");
 
 exports.form = (req, res) => {
+  logger.info("Пользователь зашёл на страницу регистрации");
   res.render("registerForm", { title: "Register" });
 };
 
@@ -20,6 +21,7 @@ exports.submit = (req, res, next) => {
         if (err) return next(err);
         req.session.userEmail = req.body.email;
         req.session.userName = req.body.name;
+        logger.info("Создался новый пользователь");
         res.redirect("/");
       });
     }

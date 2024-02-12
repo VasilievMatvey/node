@@ -23,3 +23,13 @@
   level: 'error',
   timestamp: '2024-02-11T20:09:06.303Z'
 }
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-12T06:02:51.432Z'
+}
+{
+  message: "development undefined Column 'username' cannot be null",
+  level: 'error',
+  timestamp: '2024-02-12T07:05:09.189Z'
+}
