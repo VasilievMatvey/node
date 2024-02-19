@@ -278,3 +278,108 @@
   level: 'info',
   timestamp: '2024-02-12T07:08:49.544Z'
 }
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-19T06:26:11.393Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-19T06:26:17.501Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-19T07:50:46.582Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-19T07:50:48.835Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-02-19T07:50:50.930Z'
+}
+{
+  message: 'Создан новый токен для goida@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ29pZGEiLCJpYXQiOjE3MDgzMjkwODQsImV4cCI6MTcwODMzMjY4NH0.ID-BWPnJxzCUjwZ_sNyEm3LTuf_5Q5lS9UZyq3So-2U',
+  level: 'info',
+  timestamp: '2024-02-19T07:51:24.851Z'
+}
+{
+  message: 'Создался новый пользователь',
+  level: 'info',
+  timestamp: '2024-02-19T07:51:24.866Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-19T07:51:24.894Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-19T07:56:01.905Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-19T07:56:02.012Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-02-19T07:57:50.589Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-19T07:57:54.144Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-19T07:58:08.500Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-02-19T07:58:23.105Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-19T07:58:23.137Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-02-19T07:58:25.219Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-02-19T07:58:35.082Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-02-19T07:58:58.130Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-02-19T07:58:58.173Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-02-19T07:59:12.822Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-19T07:59:12.829Z'
+}

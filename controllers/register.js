@@ -1,5 +1,6 @@
 const logger = require("../logger/index");
 const User = require("../models/user");
+const jwt = require("jsonwebtoken");
 
 exports.form = (req, res) => {
   logger.info("Пользователь зашёл на страницу регистрации");
@@ -24,6 +25,17 @@ exports.submit = (req, res, next) => {
         logger.info("Создался новый пользователь");
         res.redirect("/");
       });
+      //jwt generation
+      const token = jwt.sign(
+        {
+          name: req.body.name,
+        },
+        process.env.JWTTOKENSECRET,
+        {
+          expiresIn: 60 * 60,
+        }
+      );
+      logger.info(`Создан новый токен для ${req.body.email}, Токен: ${token}`);
     }
   });
 };
