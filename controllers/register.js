@@ -1,6 +1,7 @@
 const logger = require("../logger/index");
 const User = require("../models/user");
 const jwt = require("jsonwebtoken");
+require("dotenv").config();
 
 exports.form = (req, res) => {
   logger.info("Пользователь зашёл на страницу регистрации");
