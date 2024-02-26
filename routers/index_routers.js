@@ -6,7 +6,7 @@ const entries = require("../controllers/entries");
 const validation = require("../middleware/validate_form");
 const validate = require("../middleware/validate");
 const logger = require("../logger");
-
+const passport = require("passport");
 router.get("/", (req, res) => {
   logger.info("Пользователь зашёл на главную страницу");
   res.render("main", {
@@ -18,6 +18,7 @@ router.get("/post", entries.form);
 
 router.post(
   "/post",
+  passport.authenticate("jwt", { session: false }),
   validate.required("[entry[title]]"),
   validate.required("entry[[content]]"),
   validate.lengthAbove("[entry[title]]", 4),

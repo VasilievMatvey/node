@@ -11,7 +11,8 @@ const messages = require("./middleware/messages");
 const cookieParser = require("cookie-parser");
 const app = express();
 const myRoutes = require("./routers/index_routers");
-
+const passport = require("passport");
+const passportFunction = require("./middleware/passport");
 const port = process.env.PORT || "3000";
 const logger = require("./logger/index");
 // app.use(morgan("combined"));
@@ -24,6 +25,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "css")));
 app.use(express.static(path.join(__dirname, "views")));
+
+app.use(passport.initialize());
+passportFunction(passport);
 
 app.use(
   session({

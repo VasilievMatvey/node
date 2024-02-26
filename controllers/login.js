@@ -3,6 +3,7 @@ const validate = require("../middleware/validate");
 const messanger = "https://kappa.lol/iSONv";
 const logger = require("../logger/index");
 const jwt = require("jsonwebtoken");
+require("dotenv").config();
 
 exports.form = (req, res) => {
   logger.info("Пользователь зашёл на страницу логина");
@@ -43,6 +44,7 @@ exports.submit = (req, res, next) => {
 };
 
 exports.logout = (req, res, next) => {
+  res.clearCookie("jwt");
   logger.info("Пользователь вышел");
   req.session.destroy((err) => {
     if (err) return next(err);
