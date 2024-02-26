@@ -2,6 +2,7 @@ const User = require("../models/user");
 const validate = require("../middleware/validate");
 const messanger = "https://kappa.lol/iSONv";
 const logger = require("../logger/index");
+const jwt = require("jsonwebtoken");
 
 exports.form = (req, res) => {
   logger.info("Пользователь зашёл на страницу логина");
@@ -21,7 +22,22 @@ exports.submit = (req, res, next) => {
       req.session.userEmail = data.email;
       req.session.userName = data.name;
       logger.info("Пользователь вошёл в аккаунт");
-      res.redirect("/");
+      //jwt generation
+      const jwtTime = process.env.JWTTIME;
+      const token = jwt.sign(
+        {
+          name: req.body.name,
+        },
+        process.env.JWTTOKENSECRET,
+        {
+          expiresIn: jwtTime,
+        }
+      );
+      // создание cookie для пользователя
+      res
+        .cookie("jwt", token, { httpOnly: true, maxAge: jwtTime })
+        .redirect("/");
+      logger.info(`Создан новый токен для ${req.body.email}, Токен: ${token}`);
     }
   });
 };

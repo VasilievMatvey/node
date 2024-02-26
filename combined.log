@@ -383,3 +383,228 @@
   level: 'info',
   timestamp: '2024-02-19T07:59:12.829Z'
 }
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:02:54.166Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:02:58.395Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:02:58.649Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-02-26T08:03:03.291Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:06:38.003Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:08:23.979Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-02-26T08:08:28.381Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:10:05.618Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:10:05.646Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T08:11:01.282Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T08:13:22.503Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T08:13:23.524Z'
+}
+{
+  message: 'development undefined jwt is not defined',
+  level: 'error',
+  timestamp: '2024-02-26T08:14:04.860Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:04.865Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:04.974Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:25.654Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:25.668Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:26.422Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:16:09.477Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:26:36.099Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:26:38.209Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-02-26T08:26:42.480Z'
+}
+{
+  message: 'Создался новый пользователь',
+  level: 'info',
+  timestamp: '2024-02-26T08:27:11.973Z'
+}
+{
+  message: 'Создан новый токен для aaa@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWFhIiwiaWF0IjoxNzA4OTM2MDMxLCJleHAiOjE3MDkxMzYwMzF9.hGiofmkokaZtPKKM_g_bGgZhYwZkU0DY8xG-cjn87EE',
+  level: 'info',
+  timestamp: '2024-02-26T08:27:11.979Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:27:11.999Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:27:20.415Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:27:20.430Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-02-26T08:27:49.631Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:27:49.657Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T08:27:54.076Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:09.971Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:10.002Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:14.209Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:14.400Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:49.387Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:28:51.768Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T08:28:53.310Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:01.721Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:44.466Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:48.152Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:57.890Z'
+}
+{
+  message: 'Создан новый токен для undefined, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg5MzYxOTcsImV4cCI6MTcwODkzNjY5N30.e0lhA3scpZkvGu_udmBg-p7O47KvDQhuAn3NvuHuQXs',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:57.899Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:57.918Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:30:01.208Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:30:01.316Z'
+}

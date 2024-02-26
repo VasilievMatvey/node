@@ -23,19 +23,25 @@ exports.submit = (req, res, next) => {
         req.session.userEmail = req.body.email;
         req.session.userName = req.body.name;
         logger.info("Создался новый пользователь");
-        res.redirect("/");
+        //jwt generation
+        const jwtTime = process.env.JWTTIME;
+        const token = jwt.sign(
+          {
+            name: req.body.name,
+          },
+          process.env.JWTTOKENSECRET,
+          {
+            expiresIn: jwtTime,
+          }
+        );
+        // создание cookie для пользователя
+        res
+          .cookie("jwt", token, { httpOnly: true, maxAge: jwtTime })
+          .redirect("/");
+        logger.info(
+          `Создан новый токен для ${req.body.email}, Токен: ${token}`
+        );
       });
-      //jwt generation
-      const token = jwt.sign(
-        {
-          name: req.body.name,
-        },
-        process.env.JWTTOKENSECRET,
-        {
-          expiresIn: 60 * 60,
-        }
-      );
-      logger.info(`Создан новый токен для ${req.body.email}, Токен: ${token}`);
     }
   });
 };

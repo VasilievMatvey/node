@@ -8,6 +8,7 @@ require("dotenv").config();
 const userSession = require("./middleware/user_session");
 const messages = require("./middleware/messages");
 // const morgan = require("morgan");
+const cookieParser = require("cookie-parser");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 
@@ -49,7 +50,7 @@ app.use(
 );
 
 app.use(favicon(__dirname + "/public/favicon.ico"));
-
+app.use(cookieParser());
 app.use(messages);
 app.use(userSession);
 app.use(myRoutes);

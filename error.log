@@ -53,3 +53,78 @@
   level: 'error',
   timestamp: '2024-02-19T07:57:54.144Z'
 }
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:02:54.166Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:06:38.003Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:10:05.618Z'
+}
+{
+  message: 'development undefined jwt is not defined',
+  level: 'error',
+  timestamp: '2024-02-26T08:14:04.860Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:16:09.477Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:26:36.099Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:27:20.415Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:27:20.430Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:09.971Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:10.002Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:14.209Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:14.400Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:28:49.387Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:30:01.208Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:30:01.316Z'
+}
