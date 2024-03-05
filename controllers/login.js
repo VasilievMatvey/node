@@ -27,7 +27,7 @@ exports.submit = (req, res, next) => {
       const jwtTime = process.env.JWTTIME;
       const token = jwt.sign(
         {
-          name: req.body.name,
+          name: data.email,
         },
         process.env.JWTTOKENSECRET,
         {
@@ -38,7 +38,7 @@ exports.submit = (req, res, next) => {
       res
         .cookie("jwt", token, { httpOnly: true, maxAge: jwtTime })
         .redirect("/");
-      logger.info(`Создан новый токен для ${req.body.email}, Токен: ${token}`);
+      logger.info(`Создан новый токен для ${data.email}, Токен: ${token}`);
     }
   });
 };
