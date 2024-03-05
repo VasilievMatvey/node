@@ -1918,3 +1918,168 @@
   level: 'info',
   timestamp: '2024-03-05T07:44:03.283Z'
 }
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:51:25.564Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:52:29.683Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:52:45.143Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:56:14.991Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:56:24.017Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:58:32.033Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T15:01:26.671Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T15:02:37.683Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T15:07:38.972Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T15:08:36.093Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T15:08:44.958Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-05T15:08:49.851Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcwOTY1MTMyOSwiZXhwIjoxNzEwMTUxMzI5fQ._RdNCVyBp775K-7W0_59ubXZk8M0LwRCfdDVJS0hU78',
+  level: 'info',
+  timestamp: '2024-03-05T15:08:49.855Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T15:08:49.860Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-05T15:08:52.169Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-05T15:08:59.620Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T15:08:59.625Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T15:09:20.386Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T15:18:42.188Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-05T15:18:46.581Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T15:18:46.589Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T15:24:49.535Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T15:24:51.195Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-05T15:24:54.872Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T15:24:54.878Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T15:27:02.568Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-05T15:27:04.481Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T15:27:04.486Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-05T15:27:25.589Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T15:27:25.611Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-05T15:27:33.150Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T15:27:33.158Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-03-05T15:27:38.416Z'
+}

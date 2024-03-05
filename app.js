@@ -28,10 +28,6 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "css")));
 app.use(express.static(path.join(__dirname, "views")));
 
-app.use(passport.initialize());
-passportFunction(passport);
-app.use(passport.session());
-
 app.use(
   session({
     secret: process.env.SECRET,
@@ -39,6 +35,9 @@ app.use(
     saveUninitialized: true,
   })
 );
+app.use(passport.initialize());
+passportFunction(passport);
+app.use(passport.session());
 
 app.use(
   "/css/bootstrap.css",

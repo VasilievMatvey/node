@@ -533,3 +533,58 @@
   level: 'error',
   timestamp: '2024-03-05T06:47:15.081Z'
 }
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:51:25.564Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:52:29.683Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:52:45.143Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:56:14.991Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:56:24.017Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T14:58:32.033Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T15:01:26.671Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T15:02:37.683Z'
+}
+{
+  message: 'development undefined Login sessions require session support. Did you forget to use `express-session` middleware?',
+  level: 'error',
+  timestamp: '2024-03-05T15:07:38.972Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-05T15:27:04.481Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-05T15:27:25.589Z'
+}
