@@ -12,7 +12,9 @@ const cookieParser = require("cookie-parser");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const passport = require("passport");
-const passportFunction = require("./middleware/passport");
+// const passportFunction = require("./middleware/passport_jwt");
+const passportFunction = require("./middleware/passport_yandex");
+
 const port = process.env.PORT || "3000";
 const logger = require("./logger/index");
 // app.use(morgan("combined"));
@@ -28,6 +30,7 @@ app.use(express.static(path.join(__dirname, "views")));
 
 app.use(passport.initialize());
 passportFunction(passport);
+app.use(passport.session());
 
 app.use(
   session({
