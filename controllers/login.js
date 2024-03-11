@@ -45,6 +45,7 @@ exports.submit = (req, res, next) => {
 
 exports.logout = (req, res, next) => {
   res.clearCookie("jwt");
+  res.clearCookie("connect.sid");
   logger.info("Пользователь вышел");
   req.session.destroy((err) => {
     if (err) return next(err);

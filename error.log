@@ -588,3 +588,28 @@
   level: 'error',
   timestamp: '2024-03-05T15:27:25.589Z'
 }
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-11T06:56:40.090Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-11T06:56:42.879Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-11T06:56:44.065Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-11T06:57:22.260Z'
+}
+{
+  message: 'development undefined Unknown authentication strategy "jwt"',
+  level: 'error',
+  timestamp: '2024-03-11T08:51:09.877Z'
+}

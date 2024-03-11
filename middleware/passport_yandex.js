@@ -6,7 +6,12 @@ const appToken = process.env.APP_TOKEN;
 
 function passportFunction(passport) {
   passport.serializeUser(function (user, done) {
-    done(null, user);
+    const newUser = {};
+    (newUser.id = user.id),
+      (newUser.email = user.emails[0].value),
+      (newUser.name = user.displayName),
+      (newUser.age = user.birthday ? date.now() - user.birthday : 0),
+      done(null, newUser);
   });
 
   passport.deserializeUser(function (obj, done) {
