@@ -2083,3 +2083,88 @@
   level: 'info',
   timestamp: '2024-03-05T15:27:38.416Z'
 }
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T19:48:15.561Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T19:48:17.181Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-05T19:48:25.343Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T19:48:25.351Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T19:48:28.336Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T19:48:31.301Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T19:48:48.959Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-05T19:49:18.293Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T19:49:18.299Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T19:49:20.053Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T19:51:28.181Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T19:51:28.227Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-05T19:51:37.128Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-05T19:51:37.138Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T19:51:37.452Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T19:53:46.908Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T19:53:47.128Z'
+}

@@ -588,3 +588,23 @@
   level: 'error',
   timestamp: '2024-03-05T15:27:25.589Z'
 }
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T19:48:31.301Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T19:51:28.227Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T19:51:37.452Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T19:53:47.128Z'
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-with-polyfills-latest.js"></script>
     <title><%=title%></title>
   </head>
   <body>
@@ -60,7 +61,7 @@
               <button type="submit" class="btn btn-info  ">Войти</button>
             </div>
             <div class="col-12 col-sm-4 align-items-center">
-              <a href="/auth/yandex" class="btn btn-info  ">Войти с помощьью яндекса</a>
+              <a href="/auth/yandex" class="btn btn-info button-yandex">Войти с помощью яндекса</a>
             </div>
           </div>
           <div class="row g-2 g-5">
@@ -71,5 +72,26 @@
         </form>
       </section>
     <footer><%- include('./partials/footer')%></footer>
+    <script>
+      window.YaAuthSuggest.init(
+        {
+   client_id: client_id,
+   response_type: 'token',
+},
+        tokenPageOrigin,
+        {
+          view: "button",
+          parentId: "buttonContainerId",
+          buttonSize: 'm',
+          buttonView: 'main',
+          buttonTheme: 'dark',
+          buttonBorderRadius: "20",
+          buttonIcon: 'ya',
+        }
+      )
+      .then(({handler}) => handler())
+      .then(data => console.log('Сообщение с токеном', data))
+      .catch(error => console.log('Обработка ошибки', error))
+    </script>
       </body>
 </html>

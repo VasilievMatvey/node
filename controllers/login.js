@@ -7,7 +7,11 @@ require("dotenv").config();
 
 exports.form = (req, res) => {
   logger.info("Пользователь зашёл на страницу логина");
-  res.render("loginForm", { title: "Login", messanger: messanger });
+  res.render("loginForm", {
+    title: "Login",
+    messanger: messanger,
+    clientID: process.env.YANDEX_CLIENT_ID,
+  });
 };
 exports.submit = (req, res, next) => {
   User.authentificate(req.body.loginForm, (error, data) => {
