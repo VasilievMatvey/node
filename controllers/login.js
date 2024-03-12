@@ -19,27 +19,25 @@ exports.submit = (req, res, next) => {
       res.error("Имя или пароль неверный");
       logger.error("Имя или пароль неверный");
       res.redirect("back");
-    } else {
-      req.session.userEmail = data.email;
-      req.session.userName = data.name;
-      logger.info("Пользователь вошёл в аккаунт");
-      //jwt generation
-      const jwtTime = process.env.JWTTIME;
-      const token = jwt.sign(
-        {
-          name: data.email,
-        },
-        process.env.JWTTOKENSECRET,
-        {
-          expiresIn: jwtTime,
-        }
-      );
-      // создание cookie для пользователя
-      res
-        .cookie("jwt", token, { httpOnly: true, maxAge: jwtTime })
-        .redirect("/");
-      logger.info(`Создан новый токен для ${data.email}, Токен: ${token}`);
     }
+    req.session.userEmail = data.email;
+    req.session.userName = data.name;
+    logger.info("Пользователь вошёл в аккаунт");
+    //jwt generation
+    const jwtTime = process.env.JWTTIME;
+    const token = jwt.sign(
+      {
+        name: data.email,
+      },
+      process.env.JWTTOKENSECRET,
+      {
+        expiresIn: jwtTime,
+      }
+    );
+    // создание cookie для пользователя
+    res.cookie("jwt", token, { httpOnly: true, maxAge: jwtTime });
+    logger.info(`Создан новый токен для ${data.email}, Токен: ${token}`);
+    return res.redirect("/");
   });
 };
 

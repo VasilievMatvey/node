@@ -12,9 +12,10 @@ const cookieParser = require("cookie-parser");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const passport = require("passport");
-// const passportFunction = require("./middleware/passport_jwt");
+const passportFunction = require("./middleware/passport_jwt");
 const passportFunctionYandex = require("./middleware/passport_yandex");
 const passportFunctionGoogle = require("./middleware/passport_go");
+const passportFunctionGitHub = require("./middleware/passport_github");
 
 const port = process.env.PORT || "3000";
 const logger = require("./logger/index");
@@ -38,8 +39,10 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
+passportFunction(passport);
 passportFunctionYandex(passport);
 passportFunctionGoogle(passport);
+passportFunctionGitHub(passport);
 
 app.use(
   "/css/bootstrap.css",

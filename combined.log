@@ -3378,3 +3378,503 @@
   level: 'info',
   timestamp: '2024-03-12T08:50:36.015Z'
 }
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:25:29.068Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T19:25:30.849Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T19:25:46.719Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:25:46.725Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-12T19:25:49.189Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:25:49.194Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T19:28:51.793Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T19:29:26.225Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3MTc2NiwiZXhwIjoxNzEwNzcxNzY2fQ.OaZVphBcqTS2HOBp8CqSY8BwpUU6P7l-d0gKSlzBDik',
+  level: 'info',
+  timestamp: '2024-03-12T19:29:26.227Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:29:26.232Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:37:54.668Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T19:37:58.765Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T19:39:17.434Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3MjM1NywiZXhwIjoxNzEwNzcyMzU3fQ.RHxV4WVxOjfbVDpTz511OzMMY43jr0fMyAD5z5memTY',
+  level: 'info',
+  timestamp: '2024-03-12T19:39:51.780Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:39:51.786Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:42:30.246Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T19:42:30.318Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T19:42:30.934Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T19:48:32.517Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T19:48:38.767Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3MjkxOCwiZXhwIjoxNzEwNzcyOTE4fQ.v2yC3xCa9tTFpSWXkYglj6XXrWmUjUhdVyZiqaHPe2w',
+  level: 'info',
+  timestamp: '2024-03-12T19:48:38.770Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:48:38.776Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:52:54.284Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T19:52:59.300Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T19:53:40.886Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3MzIyMCwiZXhwIjoxNzEwNzczMjIwfQ.5Zv1H2leZj02nTEDzE95qSeeFrm2H4YUaQkv8qP5N5c',
+  level: 'info',
+  timestamp: '2024-03-12T19:53:43.739Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:54:07.433Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:54:28.542Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T19:54:37.799Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T19:54:49.627Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3MzI4OSwiZXhwIjoxNzEwNzczMjg5fQ.83KjUDZZx5IeJ2tPXARNoMaLswn4YMUuYh8RO6w8s1Y',
+  level: 'info',
+  timestamp: '2024-03-12T19:54:56.714Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:55:42.774Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T19:58:31.216Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T19:58:52.964Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T19:58:55.054Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-12T19:59:12.344Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:04:55.642Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-03-12T20:04:57.226Z'
+}
+{
+  message: 'Создался новый пользователь',
+  level: 'info',
+  timestamp: '2024-03-12T20:05:40.582Z'
+}
+{
+  message: 'Создан новый токен для jopa@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiam9wYSIsImlhdCI6MTcxMDI3Mzk0MCwiZXhwIjoxNzEwNzczOTQwfQ.rw4tWl0c1StBNvZCqKhombIB1YMji6ESOTX-C6393_U',
+  level: 'info',
+  timestamp: '2024-03-12T20:05:40.586Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:05:40.592Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:09:38.198Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:09:42.168Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T20:09:46.256Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3NDE4NiwiZXhwIjoxNzEwNzc0MTg2fQ.YNt2K8piicVoYi0SHYn2CUcmyvZY209jJh8UNo1j5OE',
+  level: 'info',
+  timestamp: '2024-03-12T20:09:46.259Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:09:46.265Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:14:13.779Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:14:18.873Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T20:14:49.670Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3NDQ4OSwiZXhwIjoxNzEwNzc0NDg5fQ.Aj0jgqGhbhLl1wm0C3MI77-vp15o1jbehp3wVk34JHs',
+  level: 'info',
+  timestamp: '2024-03-12T20:15:12.182Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:15:28.998Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:16:05.302Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:16:50.410Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:16:54.058Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T20:17:06.545Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3NDYyNiwiZXhwIjoxNzEwNzc0NjI2fQ.on1-6wSzsi1-dWz_yqWz8RGiY2C9GE7uJIiYPOp7W7o',
+  level: 'info',
+  timestamp: '2024-03-12T20:17:31.223Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:17:39.633Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:25.095Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:26.714Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:29.882Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:29.889Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:35.146Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:35.151Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:36.744Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:42.131Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:42.137Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:45.408Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:49.083Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:22:49.087Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:23:00.720Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-12T20:23:06.876Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDI3NDk4NiwiZXhwIjoxNzEwNzc0OTg2fQ.6SUhZ-mjBc5LFLh3cwHENY9hmr1dwZJpNtsoYAo-0lc',
+  level: 'info',
+  timestamp: '2024-03-12T20:23:06.878Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:23:06.885Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:46:14.402Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:46:15.913Z'
+}
+{
+  message: 'development undefined Unknown authentication strategy "github"',
+  level: 'error',
+  timestamp: '2024-03-12T20:46:17.233Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:47:40.684Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:47:42.161Z'
+}
+{
+  message: 'development 500 The redirect_uri MUST match the registered callback URL for this application.',
+  level: 'error',
+  timestamp: '2024-03-12T20:47:43.780Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:48:24.728Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:48:25.796Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-12T20:48:35.150Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T20:48:35.152Z'
+}
+{
+  message: 'development undefined Failed to obtain access token',
+  level: 'error',
+  timestamp: '2024-03-12T20:48:58.907Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:55:42.813Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:55:44.410Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-12T20:57:04.892Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T20:57:04.897Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T20:57:25.654Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T20:57:27.026Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-12T20:57:31.726Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T20:57:31.728Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T21:02:09.606Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T21:02:10.949Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-12T21:02:13.393Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T21:02:13.394Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T21:02:45.609Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-12T21:02:48.778Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-12T21:03:28.678Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T21:03:28.682Z'
+}

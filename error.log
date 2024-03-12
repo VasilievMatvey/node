@@ -798,3 +798,53 @@
   level: 'error',
   timestamp: '2024-03-12T08:50:20.943Z'
 }
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T19:42:30.318Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T19:42:30.934Z'
+}
+{
+  message: 'development undefined Unknown authentication strategy "github"',
+  level: 'error',
+  timestamp: '2024-03-12T20:46:17.233Z'
+}
+{
+  message: 'development 500 The redirect_uri MUST match the registered callback URL for this application.',
+  level: 'error',
+  timestamp: '2024-03-12T20:47:43.780Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T20:48:35.152Z'
+}
+{
+  message: 'development undefined Failed to obtain access token',
+  level: 'error',
+  timestamp: '2024-03-12T20:48:58.907Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T20:57:04.897Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T20:57:31.728Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T21:02:13.394Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-12T21:03:28.682Z'
+}
