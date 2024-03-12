@@ -13,7 +13,8 @@ const app = express();
 const myRoutes = require("./routers/index_routers");
 const passport = require("passport");
 // const passportFunction = require("./middleware/passport_jwt");
-const passportFunction = require("./middleware/passport_yandex");
+const passportFunctionYandex = require("./middleware/passport_yandex");
+const passportFunctionGoogle = require("./middleware/passport_go");
 
 const port = process.env.PORT || "3000";
 const logger = require("./logger/index");
@@ -27,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "css")));
 app.use(express.static(path.join(__dirname, "views")));
-
+app.use(express.static(path.join(__dirname, "img")));
 app.use(
   session({
     secret: process.env.SECRET,
@@ -36,8 +37,9 @@ app.use(
   })
 );
 app.use(passport.initialize());
-passportFunction(passport);
 app.use(passport.session());
+passportFunctionYandex(passport);
+passportFunctionGoogle(passport);
 
 app.use(
   "/css/bootstrap.css",

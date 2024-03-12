@@ -1,10 +1,8 @@
 const YandexStrategy = require("passport-yandex").Strategy;
-const User = require("../models/user");
 const logger = require("../logger");
 require("dotenv").config();
-const appToken = process.env.APP_TOKEN;
 
-function passportFunction(passport) {
+function passportFunctionYandex(passport) {
   passport.serializeUser(function (user, done) {
     const newUser = {};
     (newUser.id = user.id),
@@ -39,4 +37,4 @@ function passportFunction(passport) {
   );
 }
 
-module.exports = passportFunction;
+module.exports = passportFunctionYandex;

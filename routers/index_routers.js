@@ -7,6 +7,7 @@ const validation = require("../middleware/validate_form");
 const validate = require("../middleware/validate");
 const logger = require("../logger");
 const passport = require("passport");
+const ensureAuthenticated = require("../middleware/isAuthenticated");
 router.get("/", (req, res) => {
   logger.info("Пользователь зашёл на главную страницу");
   res.render("main", {
@@ -16,6 +17,14 @@ router.get("/", (req, res) => {
 router.get("/posts", entries.list);
 router.get("/post", entries.form);
 
+router.post(
+  "/post",
+  ensureAuthenticated,
+  validate.required("[entry[title]]"),
+  validate.required("entry[[content]]"),
+  validate.lengthAbove("[entry[title]]", 4),
+  entries.submit
+);
 router.post(
   "/post",
   passport.authenticate("jwt", { session: false }),
@@ -59,4 +68,16 @@ router.get(
   }
 );
 
+router.get(
+  "/auth/google",
+  passport.authenticate("google", { scope: ["email", "profile"] })
+);
+
+router.get(
+  "/auth/google/callback",
+  passport.authenticate("google", {
+    successRedirect: "/",
+    failureRedirect: "/login",
+  })
+);
 module.exports = router;
