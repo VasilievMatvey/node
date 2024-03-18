@@ -4,6 +4,7 @@ require("dotenv").config();
 
 function passportFunctionYandex(passport) {
   passport.serializeUser(function (user, done) {
+    console.log("Yandex serializing user");
     const newUser = {};
     (newUser.id = user.id),
       (newUser.email = user.emails[0].value),
@@ -20,7 +21,7 @@ function passportFunctionYandex(passport) {
       {
         clientID: process.env.YANDEX_CLIENT_ID,
         clientSecret: process.env.YANDEX_CLIENT_SECRET,
-        callbackURL: "http://127.0.0.1:3000/auth/yandex/callback",
+        callbackURL: "http://127.0.0.1:80/auth/yandex/callback",
       },
       function (appToken, refreshToken, profile, done) {
         // asynchronous verification, for effect...

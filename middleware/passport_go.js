@@ -4,6 +4,8 @@ require("dotenv").config();
 
 function passportFunctionGoogle(passport) {
   passport.serializeUser(function (user, done) {
+    console.log("Google serializing user");
+
     const newUser = {};
     (newUser.id = user.id),
       (newUser.email = user.emails[0].value),
@@ -20,7 +22,7 @@ function passportFunctionGoogle(passport) {
       {
         clientID: process.env.GOOGLE_CLIENT_ID,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-        callbackURL: "http://localhost:3000/auth/google/callback",
+        callbackURL: "http://localhost:80/auth/google/callback",
         passReqToCallback: true,
       },
       function (request, accessToken, refreshToken, profile, done) {

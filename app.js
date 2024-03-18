@@ -12,12 +12,12 @@ const cookieParser = require("cookie-parser");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const passport = require("passport");
-const passportFunction = require("./middleware/passport_jwt");
+// const passportFunction = require("./middleware/passport_jwt");
 const passportFunctionYandex = require("./middleware/passport_yandex");
 const passportFunctionGoogle = require("./middleware/passport_go");
 const passportFunctionGitHub = require("./middleware/passport_github");
-
-const port = process.env.PORT || "3000";
+const passportFunctionVKontakte = require("./middleware/passport_vk");
+const port = process.env.PORT || "80";
 const logger = require("./logger/index");
 // app.use(morgan("combined"));
 
@@ -37,12 +37,17 @@ app.use(
     saveUninitialized: true,
   })
 );
+
+app.use(cookieParser());
+app.use(userSession);
+
 app.use(passport.initialize());
 app.use(passport.session());
-passportFunction(passport);
-passportFunctionYandex(passport);
-passportFunctionGoogle(passport);
+
 passportFunctionGitHub(passport);
+passportFunctionGoogle(passport);
+passportFunctionYandex(passport);
+passportFunctionVKontakte(passport);
 
 app.use(
   "/css/bootstrap.css",
@@ -61,9 +66,7 @@ app.use(
 );
 
 app.use(favicon(__dirname + "/public/favicon.ico"));
-app.use(cookieParser());
 app.use(messages);
-app.use(userSession);
 app.use(myRoutes);
 
 app.listen(port, () => {

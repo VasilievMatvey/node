@@ -95,4 +95,14 @@ router.get(
   }
 );
 
+router.get("/auth/vkontakte", passport.authenticate("vkontakte"));
+
+router.get(
+  "/auth/vkontakte/callback",
+  passport.authenticate("vkontakte", {
+    successRedirect: "/",
+    failureRedirect: "/login",
+  })
+);
+
 module.exports = router;

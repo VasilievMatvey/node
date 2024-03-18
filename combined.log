@@ -3878,3 +3878,1354 @@
   level: 'error',
   timestamp: '2024-03-12T21:03:28.682Z'
 }
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:06:28.973Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:06:31.407Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T06:06:36.152Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-18T06:06:36.154Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:23:12.397Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:23:13.721Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T06:23:18.500Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-18T06:23:45.701Z'
+}
+{
+  message: 'development undefined Failed to obtain access token',
+  level: 'error',
+  timestamp: '2024-03-18T06:24:06.956Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:20.288Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:21.656Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:27.071Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:27.088Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:34.579Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:34.592Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:37.954Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:40.040Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:28:40.057Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:39.040Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:39.071Z'
+}
+{
+  message: 'Пользователь зашёл на страницу регистрации',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:40.203Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:41.080Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:44.324Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:44.335Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:47.339Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:47.348Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:48.127Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:49.765Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:49.780Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:53.517Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:53.523Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:29:54.207Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:24.318Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:24.342Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:30.492Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:30.498Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:31.492Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:33.585Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:33.599Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:37.488Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:37.494Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:38.086Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:40.955Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:40.968Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:42.589Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:30:42.602Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:31:28.814Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:02.613Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0MzUyMiwiZXhwIjoxNzEwNzQ0MDIyfQ.reXbneA-8UI5z0SzFN10CxeQBICx_UdDTyY5Wamot-4',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:02.616Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:02.638Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:13.180Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:15.777Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:15.792Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:32.789Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:32.803Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:33.501Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:35.542Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:35.556Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:37.392Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:37.426Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:38.349Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:40.881Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:40.897Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:42.620Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:32:42.634Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:35:39.571Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T06:35:42.618Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:35:42.660Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:35:48.916Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:35:48.936Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:35:51.569Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:36:51.094Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T06:38:17.317Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0Mzg5NywiZXhwIjoxNzEwNzQ0Mzk3fQ.pf10FVdMl2fR1XIMIF5a7ZoenNGDT6dTRW4keWGQ6KU',
+  level: 'info',
+  timestamp: '2024-03-18T06:38:17.330Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:38:17.427Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:38:34.171Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T06:38:39.083Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0MzkxOSwiZXhwIjoxNzEwNzQ0NDE5fQ.5RGXK9ekBqFPVWzj9_WQbFVay_jU10iwRfSr1Y24G3I',
+  level: 'info',
+  timestamp: '2024-03-18T06:38:39.086Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:38:39.121Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:41:36.445Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:41:38.832Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T06:42:19.848Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NDE0NiwiZXhwIjoxNzEwNzQ0NjQ2fQ.qwST6dWhqytSj2x84sJGgABHTz4rYALMUx73PYbycoU',
+  level: 'info',
+  timestamp: '2024-03-18T06:42:40.226Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:42:41.286Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:44:29.576Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T06:45:30.991Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NDMzMSwiZXhwIjoxNzEwNzQ0ODMxfQ.MdDI45Xl7qbaOwTCG3yvDrF9kiT97JXdaYyn7Eh-GqM',
+  level: 'info',
+  timestamp: '2024-03-18T06:45:38.830Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:46:00.194Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:47:24.014Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:48:54.956Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:48:57.095Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:01.254Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:01.276Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:03.608Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:06.583Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:06.612Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:09.113Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:11.626Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:11.701Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:12.098Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:23.106Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:23.136Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:25.687Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:26.838Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:29.440Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:29.506Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:29.537Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:34.972Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:34.997Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:36.598Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:43.351Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:43.534Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NDU4MywiZXhwIjoxNzEwNzQ1MDgzfQ.z8FdAXACKiwg1zaLwTGcYUF0ReiIwqN_XMmed4Y_w3U',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:43.537Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T06:49:43.565Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:46.085Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:49.831Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:55.267Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:57.013Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:15:48.949Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:15:50.636Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T07:17:28.767Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:17:28.791Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:17:32.523Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:17:32.531Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:19:17.954Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:20:13.017Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:20:13.049Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:23:46.620Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:23:46.626Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:26:49.769Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:26:51.349Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:26:55.852Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:26:55.900Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:28:00.067Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:28:02.056Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:28:05.593Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:28:05.628Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:28:11.872Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:28:11.888Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:28:50.774Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:28:52.247Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:29:00.877Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0Njk0MCwiZXhwIjoxNzEwNzQ3NDQwfQ.ZtUXGzgoA555DUjTIAKZuxYd34zbZNNVub1ERimhPQ4',
+  level: 'info',
+  timestamp: '2024-03-18T07:29:00.889Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:29:00.905Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:30:37.439Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:30:47.198Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:31:23.088Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzA4NCwiZXhwIjoxNzEwNzQ3NTg0fQ.53_Ux98Oezy7jPiS9cObAeNSSBMlz1SakEOy1_jxYOI',
+  level: 'info',
+  timestamp: '2024-03-18T07:31:34.140Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:31:48.679Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:34:04.797Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:34:12.289Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzI1MiwiZXhwIjoxNzEwNzQ3NzUyfQ.gaOvzcRMujm8znrmayt7mbIIbHNLmUSfyTjHRJr-6XU',
+  level: 'info',
+  timestamp: '2024-03-18T07:34:12.300Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:34:12.323Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:34:15.321Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:34:17.986Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:34:56.296Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:34:58.056Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:35:02.906Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzMwMiwiZXhwIjoxNzEwNzQ3ODAyfQ.pqN5X_8E5-wH5A4rd6LNGqHuqsHBJQSL3b1LS7OoOuQ',
+  level: 'info',
+  timestamp: '2024-03-18T07:35:02.917Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:35:02.955Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:35:13.945Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:14.595Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:35:15.070Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:35:18.863Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzMxOCwiZXhwIjoxNzEwNzQ3ODE4fQ.L9o6oWpcJT239p0JE0emQCGzdFjQ1PiCnE8U0iEC1s4',
+  level: 'info',
+  timestamp: '2024-03-18T07:35:18.866Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:35:18.893Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:34.724Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:34.919Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:35.515Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:39.604Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:36:18.599Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:36:20.194Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:36:23.714Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzM4MywiZXhwIjoxNzEwNzQ3ODgzfQ.gp1WAHDm-o6aGBB9w21AtXC8s-n8JagjVmLdULIbhp4',
+  level: 'info',
+  timestamp: '2024-03-18T07:36:23.719Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:36:23.751Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:36:33.008Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:36:52.171Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:07.630Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:08.215Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:11.931Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzQ5MSwiZXhwIjoxNzEwNzQ3OTkxfQ.7ut_E_6mcLx5BWr-VdBxHq1Qzl44hKBfgHinaEgfIa4',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:11.943Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:11.976Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:20.248Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:24.473Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:24.497Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:24.499Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:28.745Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:30.385Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:34.713Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzUxNCwiZXhwIjoxNzEwNzQ4MDE0fQ.HdYgaJ7d9PUKejSkJzjTP6Hu2GG9GLYxqpEFIUSp8mk',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:34.725Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:34.745Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:44.818Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:49.084Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:50.819Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:55.265Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:39:38.208Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:39:42.170Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzU4MiwiZXhwIjoxNzEwNzQ4MDgyfQ.C9xZjIIenUF5beb6dvJd_oXn9wnKSnK-sIcXSgsql2U',
+  level: 'info',
+  timestamp: '2024-03-18T07:39:42.174Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:39:42.221Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:39:58.849Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:22.502Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:22.802Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:23.214Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:23.837Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:27.566Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzYyNywiZXhwIjoxNzEwNzQ4MTI3fQ.XO7_4UiRp1RCAnR9LrNmqelSU-q0bb1KshH34Y8QO-I',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:27.570Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:27.600Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:43.595Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:44.309Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:45.211Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:48.151Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:54.575Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzY1NCwiZXhwIjoxNzEwNzQ4MTU0fQ.u8s05sNeIxlHC15mSQMHWB3erWa5-whYQfTeu2LuxjI',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:54.580Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:54.617Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:05.680Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:10.652Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:10.811Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:14.223Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(req.locals.user) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'req is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:14.230Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:16.413Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:19.924Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0NzY3OSwiZXhwIjoxNzEwNzQ4MTc5fQ.77Pi95Klhg9QkJsedn8v-YKRBGAIND4d4T4BuE6Dqrg',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:19.929Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:19.955Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(req.locals.user) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'req is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:19.959Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:36.919Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:46.261Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:46.277Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:46.941Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:47.009Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:54.584Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:54.596Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:54.601Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:54.605Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:56.298Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:56.301Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:41:56.501Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:56.504Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:42:12.131Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:42:12.640Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:42:13.911Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:42:14.816Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:42:34.270Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:42:35.158Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:01.555Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:02.640Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:03.511Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:07.248Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0Nzg0NywiZXhwIjoxNzEwNzQ4MzQ3fQ.SYXBYdZjpv8FyG1cRr39API6y2c26aH2RKux3O9HQ_4',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:07.252Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:07.291Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:44:15.259Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:44:22.096Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:23.192Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:24.204Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:29.851Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc0Nzg2OSwiZXhwIjoxNzEwNzQ4MzY5fQ.SW_cStLsqgf0ItPRZ82JEMrtjt9i4ceIPlB9RMd6poc',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:29.855Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:44:29.888Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:45:12.163Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:45:12.619Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:45:26.763Z'
+}

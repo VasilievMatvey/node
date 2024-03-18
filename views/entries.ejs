@@ -27,7 +27,7 @@
                 <h6>Запостил :   <%= entry.username %> </h6>      
                       
                 <%if(locals.user){%>
-                    <% if (locals.admin || entry.username === locals.user.name) { %> 
+                    <% if (locals.admin || entry.username == locals.user.name) { %> 
                     <a href="/update/<%= entry.id %>" class="btn-update">
                         <i class="fa-solid fa-pen-to-square"></i>
                     </a>

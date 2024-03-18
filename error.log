@@ -848,3 +848,344 @@
   level: 'error',
   timestamp: '2024-03-12T21:03:28.682Z'
 }
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-18T06:06:36.154Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading '0')",
+  level: 'error',
+  timestamp: '2024-03-18T06:23:45.701Z'
+}
+{
+  message: 'development undefined Failed to obtain access token',
+  level: 'error',
+  timestamp: '2024-03-18T06:24:06.956Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:35:51.569Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:47:24.014Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:03.608Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:12.098Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:26.838Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:29.440Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:43.351Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:46.085Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:49.831Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:55.267Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T06:49:57.013Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:34:17.986Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:34:56.296Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:14.595Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:34.724Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:34.919Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:35.515Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:35:39.604Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:36:18.599Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:36:33.008Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:36:52.171Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:08.215Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:20.248Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:24.497Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:44.818Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:49.084Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:50.819Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:38:55.265Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:39:58.849Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:22.502Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:23.214Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:43.595Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:44.309Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:40:48.151Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:05.680Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:10.652Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:10.811Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(req.locals.user) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'req is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:14.230Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(req.locals.user) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'req is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:19.959Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:36.919Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:46.277Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:46.941Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:41:47.009Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:54.596Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:54.605Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:56.301Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\main.ejs:20\n' +
+    '    18|     <div class="content">\r\n' +
+    '    19|       <div class="main text-center mt-3 mb-3">\r\n' +
+    ' >> 20|         <% console.log(userData) %> <% if (locals.user) { %>\r\n' +
+    '    21|         <h4 class="main__header">Добро пожаловать, <%= locals.user.name %>!</h4>\r\n' +
+    '    22|         <p class="main__content">\r\n' +
+    '    23|           Добро пожаловать на наш сайт, где вы можете свободно публиковать и\r\n' +
+    '\n' +
+    'userData is not defined',
+  level: 'error',
+  timestamp: '2024-03-18T07:41:56.504Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:42:12.640Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:42:34.270Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:42:35.158Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:44:15.259Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:44:22.096Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:45:12.619Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:45:26.763Z'
+}
