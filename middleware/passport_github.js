@@ -4,8 +4,8 @@ require("dotenv").config();
 
 function passportFunctionGitHub(passport) {
   passport.serializeUser(function (user, doneGIT) {
-    console.log(user);
-    console.log("Github serialize");
+    // console.log(user);
+    // console.log("Github serialize");
     const email = function () {
       if (user.provider == "google") {
         return user.email;

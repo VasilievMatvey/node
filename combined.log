@@ -5229,3 +5229,1133 @@
   level: 'error',
   timestamp: '2024-03-18T07:45:26.763Z'
 }
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:47:39.592Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:47:40.032Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:49:55.810Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:49:58.647Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:50:01.464Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:50:01.487Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:50:04.793Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:50:04.809Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:50:05.795Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:53:47.488Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:53:50.062Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:08.185Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:08.280Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:12.323Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:12.339Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:13.285Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:15.810Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:15.914Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:20.406Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:54:20.412Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:08.363Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:12.687Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:12.706Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:14.115Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:07.017Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:09.213Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:42.784Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:42.813Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:47.872Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:47.887Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:49.065Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:51.819Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:51.830Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:53.643Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:53.649Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:54.485Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:58.370Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:58.388Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:02.357Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:02.363Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:03.221Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:08.879Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:08.905Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:11.943Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:11.961Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:12.862Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:14.467Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:14.474Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:21.221Z'
+}
+{
+  message: 'Пользователь удалил пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:29.859Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:29.876Z'
+}
+{
+  message: 'Пользователь удалил пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:33.037Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:33.050Z'
+}
+{
+  message: 'Пользователь удалил пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:35.272Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:35.291Z'
+}
+{
+  message: 'Пользователь удалил пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:37.247Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:04:37.262Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:05:38.643Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:05:38.669Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:18.089Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:22.014Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:22.032Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:23.295Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:25.834Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:38.268Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:38.312Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:40.937Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:40.946Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:41.902Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:43.899Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:43.918Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:06:45.719Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:04.581Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:17.521Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:17.569Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:19.552Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:19.562Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:20.281Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:24.494Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:24.511Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:25.901Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:27.452Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:34.519Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:46.234Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:46.249Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:48.942Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:48.951Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:49.973Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:52.955Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:52.972Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:54.735Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:07:56.764Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:08:04.476Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:08:04.523Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:08:06.948Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:08:06.961Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:15.690Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:17.797Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:21.224Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:21.246Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:34.862Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:38.818Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:48.738Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:48.763Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:52.324Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:52.334Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:13:53.729Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:14:26.708Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:14:28.454Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:14:34.815Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:14:36.023Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:15:10.596Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:15:10.608Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:09.125Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:09.156Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:10.977Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:10.983Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:11.820Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:14.282Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:14.295Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:16.326Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:16.332Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:17.156Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:18.638Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:18.715Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:25.197Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:25.217Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:25.884Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:27.370Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:27.381Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:29.571Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:29.582Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:30.361Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:33.035Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:33.059Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:34.214Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:34.225Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:47.581Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:49.303Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:51.509Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:16:51.523Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:12.185Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:22.378Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:35.797Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:35.804Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:36.658Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:38.729Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:38.739Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:41.492Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:41.504Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:17:42.432Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:18:40.731Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:18:55.794Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:07.092Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:10.806Z'
+}
+{
+  message: 'Работает клиент от Yandex',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:16.237Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:16.256Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:19.493Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:19.511Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:20.398Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:27.623Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:27.637Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:28.387Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:30.214Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:30.226Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:33.067Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:33.086Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:41.735Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:44.521Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:44.534Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:47.237Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:50.235Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:50.242Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:19:59.481Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:04.231Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:20:07.448Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:27.732Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:29.628Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:29.629Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:29.700Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:20:55.197Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:22:51.808Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:22:53.546Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:22:55.390Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:22:55.405Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:22:57.871Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:23:00.392Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:23:08.378Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:23:15.874Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:23:15.918Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:23:22.782Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:23:22.790Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:23:56.045Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:02.545Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:02.560Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:04.861Z'
+}
+{
+  message: 'Пользователь зашёл на страницу создания поста',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:06.947Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:10.884Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:10.919Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:13.737Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:13.757Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:14.547Z'
+}
+{
+  message: 'Получили профиль от GitHub Vasiliev Matvey',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:18.317Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:18.329Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:20.060Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:23.242Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:23.255Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:24.046Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:26.671Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:26.680Z'
+}
+{
+  message: 'Пользователь зашёл на страницу постов',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:28.142Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:30.301Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:24:30.307Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:33:15.843Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-18T08:33:24.477Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:33:55.408Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-03-18T08:34:09.634Z'
+}
+{
+  message: 'Создан новый токен для matvey@gmail.com, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWF0dmV5QGdtYWlsLmNvbSIsImlhdCI6MTcxMDc1MDg0OSwiZXhwIjoxNzEwNzUxMzQ5fQ.Czc2B-5lE7yakRcbldKCwVHJ70pVhXbbji-um_jVRvQ',
+  level: 'info',
+  timestamp: '2024-03-18T08:34:09.644Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:34:09.664Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:37:15.438Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:37:20.332Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:37:20.346Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:37:23.413Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:37:23.425Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:37:32.080Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-18T08:37:32.089Z'
+}

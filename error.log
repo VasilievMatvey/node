@@ -1189,3 +1189,38 @@
   level: 'error',
   timestamp: '2024-03-18T07:45:26.763Z'
 }
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T07:47:40.032Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:04.231Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:27.732Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:29.628Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:29.629Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-18T08:20:29.700Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-18T08:33:24.477Z'
+}
