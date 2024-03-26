@@ -1224,3 +1224,41 @@
   level: 'error',
   timestamp: '2024-03-18T08:33:24.477Z'
 }
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\entries.ejs:19\n' +
+    '    17|     <div class="container mt-3 mb-3">\r\n' +
+    "    18|     <%#- include ('./partials/messages') %>\r\n" +
+    ' >> 19|     <% entries.forEach((entry)=>{ %>\r\n' +
+    '    20|         <div class="card entry" style="width: 66rem;">\r\n' +
+    '    21|             <div class="card-body ">\r\n' +
+    '    22|                 <h5 class="card-title"><%= entry.title %></h5>\r\n' +
+    '\n' +
+    'entries.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-03-26T07:48:41.108Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:10:54.284Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:11:15.342Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:14:00.268Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:14:33.580Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:16:49.440Z'
+}

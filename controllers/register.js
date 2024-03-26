@@ -4,7 +4,6 @@ const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
 exports.form = (req, res) => {
-  logger.info("Пользователь зашёл на страницу регистрации");
   res.render("registerForm", { title: "Register" });
 };
 

@@ -6359,3 +6359,1206 @@
   level: 'info',
   timestamp: '2024-03-18T08:37:32.089Z'
 }
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.183Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.242Z'
+}
+{
+  message: "Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'entries' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='serverdb' AND REFERENCED_TABLE_NAME IS NOT NULL;",
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.249Z'
+}
+{
+  message: "Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'users' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='serverdb' AND REFERENCED_TABLE_NAME IS NOT NULL;",
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.265Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.268Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.276Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.282Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER NOT NULL auto_increment , `username` VARCHAR(255) NOT NULL, `title` VARCHAR(255), `content` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.286Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.341Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.347Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `age` INTEGER NOT NULL, `isAdmin` INTEGER, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.353Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:28:34.370Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.223Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.236Z'
+}
+{
+  message: "Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'entries' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='serverdb' AND REFERENCED_TABLE_NAME IS NOT NULL;",
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.244Z'
+}
+{
+  message: "Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'users' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='serverdb' AND REFERENCED_TABLE_NAME IS NOT NULL;",
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.247Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.249Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.253Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.257Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER NOT NULL auto_increment , `username` VARCHAR(255) NOT NULL, `title` VARCHAR(255), `content` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.261Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.272Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.278Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `age` INTEGER NOT NULL, `isAdmin` INTEGER, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.281Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:01.293Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:33:39.368Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:39.393Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:33:39.404Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:33:39.410Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:42:04.786Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:42:04.792Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:42:04.797Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:42:04.799Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:42:14.240Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:42:14.247Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:42:14.251Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:42:14.253Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:42:17.495Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:42:17.502Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:42:17.506Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:42:17.508Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:43:28.634Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:43:28.641Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:43:28.647Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:43:28.649Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:44:04.021Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:44:04.028Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:44:04.032Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:44:04.034Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:44:22.352Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:44:22.358Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:44:22.363Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:44:22.365Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:45:36.395Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:45:36.401Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:45:36.404Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:45:36.406Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:47:37.967Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:47:37.978Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:47:37.982Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:47:37.984Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:48:03.336Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:48:03.345Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:48:03.353Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:48:03.356Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T07:48:34.323Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T07:48:39.944Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T07:48:39.970Z'
+}
+{
+  message: 'development undefined C:\\Users\\Васильев Матвей 7120\\.vscode\\node-4\\views\\entries.ejs:19\n' +
+    '    17|     <div class="container mt-3 mb-3">\r\n' +
+    "    18|     <%#- include ('./partials/messages') %>\r\n" +
+    ' >> 19|     <% entries.forEach((entry)=>{ %>\r\n' +
+    '    20|         <div class="card entry" style="width: 66rem;">\r\n' +
+    '    21|             <div class="card-body ">\r\n' +
+    '    22|                 <h5 class="card-title"><%= entry.title %></h5>\r\n' +
+    '\n' +
+    'entries.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-03-26T07:48:41.108Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:48:41.125Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:49:06.964Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:49:06.975Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:49:06.993Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:49:07.000Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:49:07.020Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:51:29.306Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:51:29.322Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:51:29.337Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:51:29.340Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T07:51:40.879Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T07:51:40.890Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:51:42.420Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`username`,`title`,`content`) VALUES (DEFAULT,?,?,?);',
+  level: 'info',
+  timestamp: '2024-03-26T07:51:47.642Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-26T07:51:47.668Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:51:47.684Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T07:52:50.521Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T07:52:53.611Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T07:52:53.625Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:52:54.828Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:55:25.270Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:55:25.275Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:55:25.279Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:55:25.282Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:55:28.384Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:55:28.390Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:55:28.394Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:55:28.396Z'
+}
+{
+  message: 'Работает клиент от Yandex',
+  level: 'info',
+  timestamp: '2024-03-26T07:55:44.218Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T07:55:49.402Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T07:55:49.420Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:55:50.772Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`username`,`title`,`content`) VALUES (DEFAULT,?,?,?);',
+  level: 'info',
+  timestamp: '2024-03-26T07:56:00.614Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-26T07:56:00.625Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:56:00.650Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:56:54.728Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:56:54.734Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:56:54.738Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:56:54.740Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:57:25.295Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:57:25.305Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:57:25.310Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:57:25.312Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:57:31.201Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T07:57:34.569Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T07:57:34.587Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:57:35.982Z'
+}
+{
+  message: "Executing (default): DELETE FROM `entries` WHERE `entryId` = '2'",
+  level: 'info',
+  timestamp: '2024-03-26T07:57:37.281Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:58:03.244Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T07:58:03.251Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T07:58:03.255Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T07:58:03.258Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:58:07.631Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T07:58:12.307Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T07:58:12.323Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:58:14.843Z'
+}
+{
+  message: "Executing (default): DELETE FROM `entries` WHERE `id` = '2'",
+  level: 'info',
+  timestamp: '2024-03-26T07:58:16.849Z'
+}
+{
+  message: 'Пользователь удалил пост',
+  level: 'info',
+  timestamp: '2024-03-26T07:58:16.852Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:58:16.864Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:03:32.985Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:03:32.991Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:03:32.995Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:03:32.997Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:04:26.477Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:04:26.486Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:04:26.490Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:04:26.494Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:04:36.292Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T08:04:40.849Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:04:40.868Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:04:42.063Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries` WHERE `entries`.`id` = '1';",
+  level: 'info',
+  timestamp: '2024-03-26T08:04:43.229Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:05:27.625Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:05:27.630Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:05:27.635Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:05:27.638Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:05:34.682Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T08:05:38.017Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:05:38.025Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:05:39.941Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries` WHERE `entries`.`id` = '1';",
+  level: 'info',
+  timestamp: '2024-03-26T08:05:42.259Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries` WHERE `entries`.`id` = '1';",
+  level: 'info',
+  timestamp: '2024-03-26T08:06:50.602Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:10:13.693Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:13.699Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:10:13.703Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:13.706Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:10:23.106Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:23.120Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:10:23.130Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:23.133Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:27.370Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:30.566Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:30.580Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:31.839Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`username`,`title`,`content`) VALUES (DEFAULT,?,?,?);',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:43.478Z'
+}
+{
+  message: 'Пользователь создал новый пост',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:43.493Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:10:43.513Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries` WHERE `entries`.`id` = '3';",
+  level: 'info',
+  timestamp: '2024-03-26T08:10:44.895Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:10:54.284Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:11:15.173Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:11:15.179Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:11:15.183Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:11:15.187Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:11:15.342Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:11:17.962Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T08:11:21.006Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:11:21.029Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:11:22.194Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries` WHERE `entries`.`id` = '3';",
+  level: 'info',
+  timestamp: '2024-03-26T08:11:24.643Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:11:28.670Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:46.978Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:46.992Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:48.094Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries` WHERE `entries`.`id` = '3';",
+  level: 'info',
+  timestamp: '2024-03-26T08:13:49.799Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:14:00.268Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:14:17.028Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:14:17.033Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:14:17.039Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:14:17.041Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:14:20.551Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T08:14:24.483Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:14:24.508Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:14:25.659Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries` WHERE `entries`.`id` = '3';",
+  level: 'info',
+  timestamp: '2024-03-26T08:14:26.965Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:14:33.580Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-26T08:16:49.440Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:16:49.484Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:16:49.495Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:16:49.512Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:16:49.515Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:16:53.707Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:18:54.620Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:18:54.628Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:18:54.633Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:18:54.635Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:25:23.256Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:25:23.261Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:25:23.265Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:25:23.267Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:27:57.216Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:27:57.222Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:27:57.226Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:27:57.229Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:29:41.752Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:29:41.761Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:29:41.766Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:29:41.768Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:31:01.859Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:31:01.865Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:31:01.869Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:31:01.872Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:31:39.614Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:31:39.620Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:31:39.624Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:31:39.627Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:33:02.037Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:33:02.043Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:33:02.047Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:33:02.050Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:35:30.276Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:35:30.282Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:35:30.286Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:35:30.289Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:39:18.961Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:39:18.970Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:39:18.974Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:39:18.977Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:45:01.429Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-03-26T08:45:01.435Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-03-26T08:45:01.439Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-03-26T08:45:01.441Z'
+}

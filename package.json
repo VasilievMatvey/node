@@ -31,6 +31,7 @@
     "passport-vkontakte": "^0.5.0",
     "passport-yandex": "^0.0.5",
     "sass": "^1.69.5",
+    "sequelize": "^6.37.1",
     "sqlite3": "^5.1.6",
     "winston": "^3.11.0"
   },

@@ -1,4 +1,4 @@
-const User = require("../models/user");
+const User = require("../models/db");
 const validate = require("../middleware/validate");
 const messanger = "https://kappa.lol/iSONv";
 const logger = require("../logger/index");
@@ -6,11 +6,27 @@ const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
 exports.form = (req, res) => {
-  logger.info("Пользователь зашёл на страницу логина");
   res.render("loginForm", { title: "Login", messanger: messanger });
 };
+
+async function authentificate(dataForm, cb) {
+  try {
+    const user = await User.findOne({
+      where: {
+        email: dataForm.email,
+      },
+    });
+    if (!user) return cb();
+    const result = await bcrypt(dataForm.password, user.password);
+    if (result) cb(null, user);
+    return cb();
+  } catch (error) {
+    return error;
+  }
+}
+
 exports.submit = (req, res, next) => {
-  User.authentificate(req.body.loginForm, (error, data) => {
+  authentificate(req.body.loginForm, (error, data) => {
     if (error) {
       logger.error(`Произошла ошибка: ${error}`);
       return next(error);
@@ -44,7 +60,6 @@ exports.submit = (req, res, next) => {
 exports.logout = (req, res, next) => {
   res.clearCookie("jwt");
   res.clearCookie("connect.sid");
-  logger.info("Пользователь вышел");
   req.session.destroy((err) => {
     if (err) return next(err);
     res.redirect("/");
