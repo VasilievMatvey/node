@@ -1,6 +1,6 @@
 const JwtStrategy = require("passport-jwt").Strategy;
 
-const User = require("../models/user");
+const User = require("../models/db");
 const logger = require("../logger");
 
 require("dotenv").config();
@@ -20,9 +20,10 @@ const options = {
 
 function passportFunction(passport) {
   passport.use(
-    new JwtStrategy(options, (jwt_payload, done) => {
-      User.findByEmail(jwt_payload.name, (err, user) => {
-        if (err) return done(err, false);
+    new JwtStrategy(options, async (jwt_payload, done) => {
+      try {
+        const user = await User.findOne(jwt_payload.name);
+
         if (user) {
           logger.info("Token OK");
           return done(null, user);
@@ -30,7 +31,10 @@ function passportFunction(passport) {
           logger.info("Token NOT OK");
           return done(null, false);
         }
-      });
+      } catch (error) {
+        logger.error(`Произошла ошибка: ${error}`);
+        return next(error, false);
+      }
     })
   );
 }

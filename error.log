@@ -1262,3 +1262,183 @@
   level: 'error',
   timestamp: '2024-03-26T08:16:49.440Z'
 }
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-26T08:58:12.865Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-04-02T06:06:17.193Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-04-02T06:07:25.196Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-04-02T06:08:54.753Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-04-02T06:10:12.682Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-04-02T06:24:47.892Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-04-02T06:28:22.472Z'
+}
+{
+  message: "Произошла ошибка: TypeError: Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T06:28:22.477Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T06:28:22.479Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-04-02T06:30:37.732Z'
+}
+{
+  message: "Произошла ошибка: TypeError: Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T06:30:37.740Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T06:30:37.829Z'
+}
+{
+  message: 'Произошла ошибка: Error: WHERE parameter "email" has invalid "undefined" value',
+  level: 'error',
+  timestamp: '2024-04-02T06:31:20.464Z'
+}
+{
+  message: 'development undefined WHERE parameter "email" has invalid "undefined" value',
+  level: 'error',
+  timestamp: '2024-04-02T06:31:20.465Z'
+}
+{
+  message: 'Произошла ошибка: ReferenceError: req is not defined',
+  level: 'error',
+  timestamp: '2024-04-02T06:39:27.271Z'
+}
+{
+  message: 'development undefined req is not defined',
+  level: 'error',
+  timestamp: '2024-04-02T06:39:27.272Z'
+}
+{
+  message: 'Произошла ошибка: ReferenceError: req is not defined',
+  level: 'error',
+  timestamp: '2024-04-02T06:43:30.738Z'
+}
+{
+  message: 'development undefined req is not defined',
+  level: 'error',
+  timestamp: '2024-04-02T06:43:30.741Z'
+}
+{
+  message: "Произошла ошибка: TypeError: Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T07:01:46.760Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T07:01:46.777Z'
+}
+{
+  message: 'Произошла ошибка: ReferenceError: req is not defined',
+  level: 'error',
+  timestamp: '2024-04-02T07:10:09.202Z'
+}
+{
+  message: 'development undefined req is not defined',
+  level: 'error',
+  timestamp: '2024-04-02T07:10:09.214Z'
+}
+{
+  message: 'Произошла ошибка: Error: WHERE parameter "email" has invalid "undefined" value',
+  level: 'error',
+  timestamp: '2024-04-02T07:12:44.179Z'
+}
+{
+  message: 'development undefined WHERE parameter "email" has invalid "undefined" value',
+  level: 'error',
+  timestamp: '2024-04-02T07:12:44.190Z'
+}
+{
+  message: 'Произошла ошибка: Error: WHERE parameter "email" has invalid "undefined" value',
+  level: 'error',
+  timestamp: '2024-04-02T07:14:34.780Z'
+}
+{
+  message: 'development undefined WHERE parameter "email" has invalid "undefined" value',
+  level: 'error',
+  timestamp: '2024-04-02T07:14:34.901Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-04-02T07:16:15.966Z'
+}
+{
+  message: "Произошла ошибка: TypeError: Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T07:16:15.973Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T07:16:15.975Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-04-02T07:39:31.647Z'
+}
+{
+  message: "Произошла ошибка: TypeError: Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T07:39:31.648Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T07:39:31.650Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-04-02T07:49:30.262Z'
+}
+{
+  message: "Произошла ошибка: TypeError: Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T07:49:30.263Z'
+}
+{
+  message: "development undefined Cannot read properties of undefined (reading 'email')",
+  level: 'error',
+  timestamp: '2024-04-02T07:49:30.265Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-04-02T07:55:10.781Z'
+}

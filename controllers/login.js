@@ -2,6 +2,7 @@ const { User } = require("../models/db");
 const validate = require("../middleware/validate");
 const messanger = "https://kappa.lol/iSONv";
 const logger = require("../logger/index");
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
@@ -12,16 +13,14 @@ exports.form = (req, res) => {
 async function authentificate(dataForm, cb) {
   try {
     const user = await User.findOne({
-      where: {
-        email: dataForm.email,
-      },
+      where: { email: dataForm.email },
     });
     if (!user) return cb();
-    const result = await bcrypt(dataForm.password, user.password);
-    if (result) cb(null, user);
+    const result = await bcrypt.compare(dataForm.password, user.password);
+    if (result) return cb(null, user);
     return cb();
-  } catch (error) {
-    return error;
+  } catch (err) {
+    return cb(err);
   }
 }
 
