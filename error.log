@@ -1442,3 +1442,13 @@
   level: 'error',
   timestamp: '2024-04-02T07:55:10.781Z'
 }
+{
+  message: 'ОшибкаД ReferenceError: dataForm is not defined',
+  level: 'error',
+  timestamp: '2024-04-02T08:42:43.601Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-04-02T08:50:23.825Z'
+}

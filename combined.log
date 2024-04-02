@@ -9852,3 +9852,308 @@
   level: 'error',
   timestamp: '2024-04-02T07:55:10.781Z'
 }
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:20:45.819Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:20:45.835Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:20:45.844Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:20:45.847Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:42:29.646Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:42:29.657Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:42:29.663Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:42:29.666Z'
+}
+{
+  message: 'ОшибкаД ReferenceError: dataForm is not defined',
+  level: 'error',
+  timestamp: '2024-04-02T08:42:43.601Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:45:33.444Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:45:33.456Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:45:33.463Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:45:33.466Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:04.020Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:04.034Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:04.039Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:04.041Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:07.065Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:07.073Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:07.080Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:07.083Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age`, `isAdmin` FROM `users` AS `users` WHERE `users`.`email` = 'matvey@gmail.com' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:28.453Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:44.028Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:44.039Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:44.044Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:44.047Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:47.479Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:47.485Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:47.490Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:47.492Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age`, `isAdmin` FROM `users` AS `users` WHERE `users`.`email` = 'matvey@gmail.com' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T08:46:51.949Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-04-02T08:46:52.054Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:47:18.690Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:18.696Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:47:18.700Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:18.703Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:29.410Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age`, `isAdmin` FROM `users` AS `users` WHERE `users`.`email` = 'matvey@gmail.com' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T08:47:38.018Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:38.117Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:47:48.152Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:48.160Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:47:48.164Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:48.167Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age`, `isAdmin` FROM `users` AS `users` WHERE `users`.`email` = 'matvey@gmail.com' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T08:47:51.713Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:51.795Z'
+}
+{
+  message: 'Создан новый токен для undefined, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MTIwNDc2NzEsImV4cCI6MTcxMjA0ODE3MX0.F_5ojRKCWwEvSHJIem7a2UsiLxvluDjRnbbWN8NDmiQ',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:51.806Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T08:47:51.831Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age`, `isAdmin` FROM `users` AS `users` WHERE `users`.`email` = 'matvey@gmail.com' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T08:48:00.699Z'
+}
+{
+  message: 'Пользователь вошёл в аккаунт',
+  level: 'info',
+  timestamp: '2024-04-02T08:48:00.797Z'
+}
+{
+  message: 'Создан новый токен для undefined, Токен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MTIwNDc2ODAsImV4cCI6MTcxMjA0ODE4MH0.pyS_RKNjQNeAmAKanA-wq0NekiQjnY2YFNW8LTkRiCQ',
+  level: 'info',
+  timestamp: '2024-04-02T08:48:00.806Z'
+}
+{
+  message: 'Пользователь зашёл на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T08:48:00.822Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:48:29.605Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:48:29.612Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:48:29.616Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:48:29.618Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'entries' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:50:13.452Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `entries`',
+  level: 'info',
+  timestamp: '2024-04-02T08:50:13.459Z'
+}
+{
+  message: "Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'serverdb'",
+  level: 'info',
+  timestamp: '2024-04-02T08:50:13.464Z'
+}
+{
+  message: 'Executing (default): SHOW INDEX FROM `users`',
+  level: 'info',
+  timestamp: '2024-04-02T08:50:13.466Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age`, `isAdmin` FROM `users` AS `users` WHERE `users`.`email` = 'matvey@gmail.com' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T08:50:23.734Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-04-02T08:50:23.825Z'
+}
