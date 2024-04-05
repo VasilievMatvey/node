@@ -30,46 +30,38 @@ exports.submit = async (req, res, next) => {
       where: { email: req.body.loginForm.email },
     });
     if (!user) {
-      logger.error("User not found");
-      return res.redirect("/back");
-    } else {
-      bcrypt.compare(
-        req.body.loginForm.password,
-        user.password,
-        (error, result) => {
-          if (!result) {
-            res.error("Имя или пароль неверный");
-            logger.error("Имя или пароль неверный");
-            res.redirect("back");
-          }
-          req.session.userEmail = result.email;
-          req.session.userName = result.name;
-          logger.info("Пользователь вошёл в аккаунт");
-          //jwt generation
-          const jwtTime = process.env.JWTTIME;
-          const token = jwt.sign(
-            {
-              name: result.email,
-            },
-            process.env.JWTTOKENSECRET,
-            {
-              expiresIn: jwtTime,
-            }
-          );
-          // создание cookie для пользователя
-          res.cookie("jwt", token, { httpOnly: true, maxAge: jwtTime });
-          logger.info(
-            `Создан новый токен для ${result.email}, Токен: ${token}`
-          );
-          return res.redirect("/");
+      logger.info("Пользователь не найден");
+      return res.redirect("back");
+    }
+    const result = await bcrypt.compare(
+      req.body.loginForm.password,
+      user.password
+    );
+    if (result) {
+      req.session.userEmail = req.body.loginForm.email;
+      req.session.userName = req.body.loginForm.name;
+      //jwt generation
+      const jwtTime = process.env.JWTTIME;
+      const token = jwt.sign(
+        {
+          name: result.email,
+        },
+        process.env.JWTTOKENSECRET,
+        {
+          expiresIn: jwtTime,
         }
       );
+      // создание cookie для пользователя
+      res.cookie("jwt", token, { httpOnly: true, maxAge: jwtTime });
+      logger.info(`Создан новый токен для ${result.email}, Токен: ${token}`);
+      return res.redirect("/");
     }
-  } catch (error) {
-    logger.error("ОшибкаД " + error);
+    logger.error("Неправильный логин или пароль");
+    return res.redirect("back");
+  } catch (err) {
+    logger.error(`Ошибка в модуле авторизации: ${err}`);
   }
 };
-
 exports.logout = (req, res, next) => {
   res.clearCookie("jwt");
   res.clearCookie("connect.sid");
