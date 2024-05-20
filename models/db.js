@@ -62,8 +62,10 @@ const User = sequelize.define("users", {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
-  isAdmin: {
-    type: DataTypes.INTEGER,
+  role: {
+    type: DataTypes.STRING,
+    allowNull: false,
+    defaultValue: "USER",
   },
 });
 

@@ -25,6 +25,7 @@ exports.submit = async (req, res, next) => {
         email: req.body.email,
         password: hash,
         age: req.body.age,
+        role: "ADMIN",
         isAdmin: req.body.isAdmin,
       });
       req.session.userEmail = req.body.email;

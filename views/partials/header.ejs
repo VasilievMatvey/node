@@ -28,9 +28,12 @@
         <li class="nav-item">
           <a class="nav-link header-link" href="/catalog">Каталог</a>
         </li>
+        <%if(locals.admin){%>
         <li class="nav-item">
           <a class="nav-link header-link" href="/admin">Админ панель</a>
         </li>
+        <%}%>
+
         <li class="nav-item">
           <a class="nav-link header-link" href="/orders">Корзина</a>
         </li>

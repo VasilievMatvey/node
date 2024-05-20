@@ -30,7 +30,9 @@
           <h1><%= product.name %></h1>
           <h3><%= product.price %>.00 руб.</h3>
           <% if (locals.user) { %>
-          <a href="/order" class="btn btn-primary">Добавить в корзину</a>
+          <a href="/order/<% product.id %>" class="btn btn-primary"
+            >Добавить в корзину</a
+          >
           <% } %>
         </div>
       </div>

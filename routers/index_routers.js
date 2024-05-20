@@ -46,8 +46,7 @@ router.get("/admin/delete/product/:id", productController.delete);
 router.get("/product/:id", productController.oneProduct);
 
 router.get("/orders", ordersContreoller.list);
-router.get("/order/id", ordersContreoller.createOrder);
-router.get("/order", ordersContreoller.getOne);
+router.get("/order/:id", ordersContreoller.createOrder);
 router.get("/posts", entries.list);
 router.get("/post", entries.form);
 
