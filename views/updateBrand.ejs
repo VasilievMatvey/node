@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <script defer src="/js/bootstrap.js"></script>
+    <style>
+      .header-link,
+      .navbar-brand {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header><%- include ('./partials/header') %></header>
+    <div class="container mt-3 mb-3">
+      <h1><%= title %></h1>
+      <%#- include ('./partials/messages') %>
+      <p>Заполните форму ниже чтобы изменить пост.</p>
+      <form method="post" action="/admin/update/brand/<%= brand.id %>">
+        <div class="mb-3">
+          <label for="z" class="form-label">Заголовок поста</label>
+          <input
+            type="text"
+            class="form-control"
+            name="brand[name]"
+            id="z"
+            aria-describedby="helpId"
+            value="<%= brand.name %>"
+            placeholder="Название бренда"
+          />
+        </div>
+
+        <button type="submit" value="Brand" class="btn btn-primary">
+          Отправить
+        </button>
+      </form>
+    </div>
+    <footer><%- include ('./partials/footer') %></footer>
+  </body>
+</html>

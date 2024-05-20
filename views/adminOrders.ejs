@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script defer src="/js/bootstrap.js"></script>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <header class="header"><%- include(`./partials/header`) %></header>
+    <div class="container mt-3 mb-3">
+      <h1><%= title %></h1>
+      <a href="/post" class="btn btn-primary mb-2">Создать новый пост</a>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">Название</th>
+            <th scope="col">Изменить</th>
+            <th scope="col">Удалить</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% orders.forEach(brand => { let { id, name } = orders; %>
+          <tr>
+            <th scope="row"><%= id %></th>
+            <td><%= name %></td>
+            <td><a class="btn btn-success">Изменить</a></td>
+            <td><a class="btn btn-danger">Удалить</a></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <%- include(`./partials/footer`) %>
+    </footer>
+  </body>
+</html>

@@ -67,4 +67,39 @@ const User = sequelize.define("users", {
   },
 });
 
-module.exports = { Entry, User, sequelize };
+const Brand = sequelize.define("brands", {
+  id: {
+    type: DataTypes.INTEGER,
+
+    primaryKey: true,
+    allowNull: false,
+    autoIncrement: true,
+  },
+  name: { type: DataTypes.STRING, unique: true, allowNull: false },
+});
+
+const Product = sequelize.define("products", {
+  id: {
+    type: DataTypes.INTEGER,
+    primaryKey: true,
+    allowNull: false,
+    autoIncrement: true,
+  },
+  name: { type: DataTypes.STRING, allowNull: false },
+  price: { type: DataTypes.INTEGER, allowNull: false },
+  brandId: { type: DataTypes.INTEGER, allowNull: false },
+  img: { type: DataTypes.STRING, allowNull: false },
+});
+
+const Order = sequelize.define("orders", {
+  id: {
+    type: DataTypes.INTEGER,
+    primaryKey: true,
+    allowNull: false,
+    autoIncrement: true,
+  },
+  userId: { type: DataTypes.INTEGER, allowNull: false },
+  productId: { type: DataTypes.INTEGER, allowNull: false },
+});
+
+module.exports = { Entry, User, Brand, Product, Order, sequelize };

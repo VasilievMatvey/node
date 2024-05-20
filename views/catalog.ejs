@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <script defer src="/js/bootstrap.js"></script>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <header class="header"><%- include(`./partials/header`) %></header>
+    <div class="container-xxl d-flex flex-row mt-2 mb-2">
+      <div class="row">
+        <div class="col-3 p-2">
+          <div class="brands">
+            <h3>Бренды:</h3>
+            <ul class="list-group">
+              <% brands.forEach((brand)=>{%>
+              <li class="list-group-item"><%= brand.name %></li>
+              <%}) %>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-9 text-center">
+          <div class="row d-flex cards">
+            <h3>Карточки:</h3>
+            <div class="col-3 mt-2 cards-info">
+              <% products.forEach((product)=>{ let {id, name, price, img} =
+              product; %>
+              <div class="card" style="width: 150 px">
+                <img src="<%= img %>" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Название: <%= name %></h5>
+
+                  <p class="card-text">Цена: <%= price %> руб.</p>
+                  <a href="/product/<%= id %>" class="btn btn-primary"
+                    >К товару...</a
+                  >
+                </div>
+              </div>
+              <% }) %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <%- include(`./partials/footer`) %>
+    </footer>
+  </body>
+</html>

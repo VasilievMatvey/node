@@ -1452,3 +1452,1448 @@
   level: 'error',
   timestamp: '2024-04-02T08:50:23.825Z'
 }
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-04-05T08:00:45.455Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:20:55.443Z'
+}
+{
+  message: 'development undefined Failed to lookup view "catalog" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-17T18:22:02.289Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:22:29.005Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:22:39.752Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:22:39.791Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:22:51.320Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:23:30.635Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:23:30.679Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:23:32.475Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:23:41.139Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:24:07.941Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:24:08.869Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:24:08.910Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:24:13.045Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:24:21.462Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:24:30.229Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:25:42.786Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:25:42.821Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="categories">\r\n' +
+    '    23|             <h3>Категории:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'Could not find matching close tag for "<%".',
+  level: 'error',
+  timestamp: '2024-05-17T18:32:03.652Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="categories">\r\n' +
+    '    23|             <h3>Категории:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <% brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:32:24.821Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="categories">\r\n' +
+    '    23|             <h3>Категории:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <% brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:33:56.462Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="categories">\r\n' +
+    '    23|             <h3>Категории:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <% brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:34:40.209Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="categories">\r\n' +
+    '    23|             <h3>Категории:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <% brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:34:40.506Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="categories">\r\n' +
+    '    23|             <h3>Категории:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <% brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:35:02.246Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="categories">\r\n' +
+    '    23|             <h3>Категории:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <% brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:35:57.337Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="categories">\r\n' +
+    '    23|             <h3>Категории:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <% brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:37:31.221Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:31\n' +
+    '    29|           <div class="row d-flex cards">\r\n' +
+    '    30|             <h3>Карточки:</h3>\r\n' +
+    " >> 31|             <%- include('./partials/cardList') %>\r\n" +
+    '    32|           </div>\r\n' +
+    '    33|         </div>\r\n' +
+    '    34|       </div>\r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\cardList.ejs:2\n' +
+    '    1| <div class="col-3 mt-2 cards-info">\r\n' +
+    ' >> 2|   <% products.forEach((product)=>{ let {id, name, price, img} = product; %>\r\n' +
+    '    3|   <div class="card" style="width: 150 px">\r\n' +
+    '    4|     <img src="<%= img %>" class="card-img-top" alt="..." />\r\n' +
+    '    5|     <div class="card-body">\r\n' +
+    '\n' +
+    'products is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:42:26.834Z'
+}
+{
+  message: 'development undefined Failed to lookup view "prosuctPage" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-17T18:50:12.327Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T18:54:26.865Z'
+}
+{
+  message: 'development undefined Failed to lookup view "admin" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-17T18:57:25.310Z'
+}
+{
+  message: 'development undefined Failed to lookup view "admin" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-17T18:57:28.556Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\admin.ejs:15\n' +
+    '    13| \r\n' +
+    '    14|     <script defer src="/js/bootstrap.js"></script>\r\n' +
+    ' >> 15|     <title><%= title %></title>\r\n' +
+    '    16|   </head>\r\n' +
+    '    17|   <body>\r\n' +
+    '    18|     <header class="header"><%- include(`./partials/header`) %></header>\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T18:59:04.505Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:06:02.265Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:08:05.920Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:11:00.180Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:11:12.037Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:11:14.317Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:11:19.688Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:12:00.671Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:12:41.081Z'
+}
+{
+  message: 'development undefined Failed to lookup view "adminProducts" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-17T19:13:20.915Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:19:09.902Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:19:43.436Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:20:05.335Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:20:17.327Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:20:57.252Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:21:00.077Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:21:15.095Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:21:28.238Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:21:29.046Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:21:30.193Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:21:30.668Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:21:46.157Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:22:02.516Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:24:28.192Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:09.388Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:12.533Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:19.712Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:36.807Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:36.808Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:40.236Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:40.237Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:52.098Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:52.099Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:25:52.100Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:26:08.318Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:26:08.319Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:26:08.320Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:27:17.322Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:27:27.790Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:27:33.521Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:27:47.776Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:29:57.735Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-17T19:30:48.406Z'
+}
+{
+  message: 'development undefined Could not find matching close tag for "<%".',
+  level: 'error',
+  timestamp: '2024-05-17T19:35:54.365Z'
+}
+{
+  message: "development undefined Unexpected token ')' in C:\\Users\\damag\\node\\views\\adminBrands.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-17T19:36:07.623Z'
+}
+{
+  message: "development undefined Unexpected token ')' in C:\\Users\\damag\\node\\views\\adminBrands.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-17T19:36:45.455Z'
+}
+{
+  message: "development undefined Unexpected token ')' in C:\\Users\\damag\\node\\views\\adminBrands.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-17T19:37:14.741Z'
+}
+{
+  message: "development undefined Unexpected token ')' in C:\\Users\\damag\\node\\views\\adminBrands.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-17T19:38:27.369Z'
+}
+{
+  message: "development undefined Unexpected token ')' in C:\\Users\\damag\\node\\views\\adminBrands.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-17T19:39:11.356Z'
+}
+{
+  message: "development undefined Unexpected token ')' in C:\\Users\\damag\\node\\views\\adminBrands.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-17T19:39:51.984Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminOrders.ejs:31\n' +
+    '    29|         </thead>\r\n' +
+    '    30|         <tbody>\r\n' +
+    ' >> 31|           <% orders.forEach(brand => { let { id, name } = orders; %>\r\n' +
+    '    32|           <tr>\r\n' +
+    '    33|             <th scope="row"><%= id %></th>\r\n' +
+    '    34|             <td><%= name %></td>\r\n' +
+    '\n' +
+    'orders is not defined',
+  level: 'error',
+  timestamp: '2024-05-17T19:53:42.024Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T08:01:08.864Z'
+}
+{
+  message: 'development undefined Failed to lookup view "brand" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-18T08:03:16.980Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T08:06:36.406Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T08:06:50.977Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T08:07:00.079Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T08:07:02.491Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T08:07:35.892Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T08:08:19.342Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminBrands.ejs:33\n' +
+    '    31|         </thead>\r\n' +
+    '    32|         <tbody>\r\n' +
+    ' >> 33|           <%console.log(brands); brands.forEach(brand => { let { id, name } =\r\n' +
+    '    34|           brand; console.log(brand) %>\r\n' +
+    '    35| \r\n' +
+    '    36|           <tr>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:24:11.235Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminBrands.ejs:33\n' +
+    '    31|         </thead>\r\n' +
+    '    32|         <tbody>\r\n' +
+    ' >> 33|           <%console.log(brands); brands.forEach(brand => { let { id, name } =\r\n' +
+    '    34|           brand; console.log(brand) %>\r\n' +
+    '    35| \r\n' +
+    '    36|           <tr>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:24:44.460Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminBrands.ejs:33\n' +
+    '    31|         </thead>\r\n' +
+    '    32|         <tbody>\r\n' +
+    ' >> 33|           <%console.log(brands); brands.forEach(brand => { let { id, name } =\r\n' +
+    '    34|           brand; console.log(brand) %>\r\n' +
+    '    35| \r\n' +
+    '    36|           <tr>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:25:07.116Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminBrands.ejs:33\n' +
+    '    31|         </thead>\r\n' +
+    '    32|         <tbody>\r\n' +
+    ' >> 33|           <%console.log(brands); brands.forEach(brand => { let { id, name } =\r\n' +
+    '    34|           brand; console.log(brand) %>\r\n' +
+    '    35| \r\n' +
+    '    36|           <tr>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:25:14.777Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminBrands.ejs:33\n' +
+    '    31|         </thead>\r\n' +
+    '    32|         <tbody>\r\n' +
+    ' >> 33|           <%console.log(brands); brands.forEach(brand => { let { id, name } =\r\n' +
+    '    34|           brand; console.log(brand) %>\r\n' +
+    '    35| \r\n' +
+    '    36|           <tr>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:25:35.539Z'
+}
+{
+  message: 'development undefined Failed to lookup view "adminBrand" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-18T08:31:23.632Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminBrands.ejs:33\n' +
+    '    31|         </thead>\r\n' +
+    '    32|         <tbody>\r\n' +
+    ' >> 33|           <% brands.forEach(brand => { let { id, name } = brand; %>\r\n' +
+    '    34| \r\n' +
+    '    35|           <tr>\r\n' +
+    '    36|             <th scope="row"><%= brand.id %></th>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:38:37.579Z'
+}
+{
+  message: 'development undefined Failed to lookup view "brandList" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-18T08:39:34.207Z'
+}
+{
+  message: 'development undefined Failed to lookup view "/partials/brandList" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-18T08:40:13.800Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="brands">\r\n' +
+    '    23|             <h3>Бренды:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <%console.log(brands); brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:42:57.699Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="brands">\r\n' +
+    '    23|             <h3>Бренды:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <%console.log(brands); brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:45:29.363Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:24\n' +
+    '    22|           <div class="brands">\r\n' +
+    '    23|             <h3>Бренды:</h3>\r\n' +
+    " >> 24|             <%- include('./partials/brandList') %>\r\n" +
+    '    25|           </div>\r\n' +
+    '    26|         </div>\r\n' +
+    '    27| \r\n' +
+    '\n' +
+    'C:\\Users\\damag\\node\\views\\partials\\brandList.ejs:2\n' +
+    '    1| <ul class="list-group">\r\n' +
+    ' >> 2|   <%console.log(brands); brands.forEach((brand)=>{%>\r\n' +
+    '    3|   <li class="list-group-item"><%= brand.name %></li>\r\n' +
+    '    4|   <%}) %>\r\n' +
+    '    5| </ul>\r\n' +
+    '\n' +
+    'brands.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:45:34.929Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\catalog.ejs:36\n' +
+    '    34|             <h3>Карточки:</h3>\r\n' +
+    '    35|             <div class="col-3 mt-2 cards-info">\r\n' +
+    ' >> 36|               <% products.forEach((product)=>{ let {id, name, price, img} =\r\n' +
+    '    37|               product; %>\r\n' +
+    '    38|               <div class="card" style="width: 150 px">\r\n' +
+    '    39|                 <img src="<%= img %>" class="card-img-top" alt="..." />\r\n' +
+    '\n' +
+    'products.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:52:14.217Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminProducts.ejs:32\n' +
+    '    30|         </thead>\r\n' +
+    '    31|         <tbody>\r\n' +
+    ' >> 32|           <% products.forEach(product => { let { id, name } = product; %>\r\n' +
+    '    33|           <tr>\r\n' +
+    '    34|             <th scope="row"><%= id %></th>\r\n' +
+    '    35|             <td><%= name %></td>\r\n' +
+    '\n' +
+    'products.forEach is not a function',
+  level: 'error',
+  timestamp: '2024-05-18T08:55:47.704Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T09:16:15.983Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T09:17:23.615Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T09:17:29.628Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T09:17:51.100Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T09:19:02.778Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-05-18T09:21:42.474Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T09:23:12.349Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T11:01:18.786Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminProducts.ejs:32\n' +
+    '    30|         </thead>\r\n' +
+    '    31|         <tbody>\r\n' +
+    ' >> 32|           <% products.forEach(product => { let { id, name } = product; %>\r\n' +
+    '    33|           <tr>\r\n' +
+    '    34|             <th scope="row"><%= id %></th>\r\n' +
+    '    35|             <td><%= name %></td>\r\n' +
+    '\n' +
+    'products is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T11:05:47.233Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminProducts.ejs:32\n' +
+    '    30|         </thead>\r\n' +
+    '    31|         <tbody>\r\n' +
+    ' >> 32|           <% products.forEach(product => { let { id, name } = product; %>\r\n' +
+    '    33|           <tr>\r\n' +
+    '    34|             <th scope="row"><%= id %></th>\r\n' +
+    '    35|             <td><%= name %></td>\r\n' +
+    '\n' +
+    'products is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T11:06:52.780Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T11:10:38.274Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T11:13:59.632Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:27\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    '    26|           <div class="dropdown-menu">\r\n' +
+    ' >> 27|             <% brans.forEach(brand => { %>\r\n' +
+    '    28|             <a class="dropdown-item" href="#"><%=brand.name%></a>\r\n' +
+    '    29|             <%}); %>\r\n' +
+    '    30|           </div>\r\n' +
+    '\n' +
+    'brans is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:22:34.492Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:27\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    '    26|           <div class="dropdown-menu">\r\n' +
+    ' >> 27|             <% brands.forEach(brand => { %>\r\n' +
+    '    28|             <a class="dropdown-item" href="#"><%=brand.name%></a>\r\n' +
+    '    29|             <%}); %>\r\n' +
+    '    30|           </div>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:23:55.218Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:27\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    '    26|           <div class="dropdown-menu">\r\n' +
+    ' >> 27|             <% brands.forEach(brand => { %>\r\n' +
+    '    28|             <a class="dropdown-item" name="brandId" href="#"><%=brand.name%></a>\r\n' +
+    '    29|             <%}); %>\r\n' +
+    '    30|           </div>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:29:42.727Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:27\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    '    26|           <div class="dropdown-menu">\r\n' +
+    ' >> 27|             <% brands.forEach(brand => { %>\r\n' +
+    '    28|             <a class="dropdown-item" name="brandId" href="#"><%=brand.name%></a>\r\n' +
+    '    29|             <%}); %>\r\n' +
+    '    30|           </div>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:29:53.515Z'
+}
+{
+  message: "development undefined Unexpected identifier 'brands' in C:\\Users\\damag\\node\\views\\productForm.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-18T12:30:33.049Z'
+}
+{
+  message: "development undefined Unexpected identifier 'brands' in C:\\Users\\damag\\node\\views\\productForm.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-18T12:32:10.870Z'
+}
+{
+  message: "development undefined Unexpected identifier 'brands' in C:\\Users\\damag\\node\\views\\productForm.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-18T12:32:17.475Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:33:49.792Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:35:32.005Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:36:40.743Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:38:24.527Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:41:55.334Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:42:08.472Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:43:53.776Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:45:09.860Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:45:36.624Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:46:13.842Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:46:44.813Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:51:38.206Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:54:17.548Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:56:10.753Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:56:57.994Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:57:11.742Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productForm.ejs:26\n' +
+    '    24|         <div class="dropdown mt-2 mb-2">\r\n' +
+    '    25|           <button class="dropdown-toggle">Выберите бренд</button>\r\n' +
+    ' >> 26|           <% if (brands && brands.length) { %>\r\n' +
+    '    27|           <div class="dropdown-menu">\r\n' +
+    '    28|             <% brands.forEach(brand => { %>\r\n' +
+    '    29|             <a class="dropdown-item" href="#"><%= brand.name %></a>\r\n' +
+    '\n' +
+    'brands is not defined',
+  level: 'error',
+  timestamp: '2024-05-18T12:57:48.871Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-18T13:03:57.779Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-19T00:50:22.947Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:27\n' +
+    '    25|           <h1><%= product.name %></h1>\r\n' +
+    '    26|           <h3><%= product.price %>.00 руб.</h3>\r\n' +
+    ' >> 27|           <!-- <p>Бренд: <%= product.brand.name %></p>\r\n' +
+    '    28|           <p>Категория: <%= product.category.name %></p> -->\r\n' +
+    '    29| \r\n' +
+    '    30|           <div class="spinner-border" role="status">\r\n' +
+    '\n' +
+    "Cannot read properties of undefined (reading 'name')",
+  level: 'error',
+  timestamp: '2024-05-19T01:03:02.865Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:22\n' +
+    '    20|       <div class="row mt-3 mb-3">\r\n' +
+    '    21|         <div class="col-lg-4">\r\n' +
+    ' >> 22|           <img width="300" height="300" src="<%= product.img %>" />\r\n' +
+    '    23|         </div>\r\n' +
+    '    24|         <div class="col-lg-8">\r\n' +
+    '    25|           <h1><%= product.name %></h1>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:03:15.741Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:22\n' +
+    '    20|       <div class="row mt-3 mb-3">\r\n' +
+    '    21|         <div class="col-lg-4">\r\n' +
+    ' >> 22|           <img width="300" height="300" src="<%= product.img %>" />\r\n' +
+    '    23|         </div>\r\n' +
+    '    24|         <div class="col-lg-8">\r\n' +
+    '    25|           <h1><%= product.name %></h1>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:03:27.946Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:22\n' +
+    '    20|       <div class="row mt-3 mb-3">\r\n' +
+    '    21|         <div class="col-lg-4">\r\n' +
+    ' >> 22|           <img width="300" height="300" src="<%= product.img %>" />\r\n' +
+    '    23|         </div>\r\n' +
+    '    24|         <div class="col-lg-8">\r\n' +
+    '    25|           <h1><%= product.name %></h1>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:04:22.570Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:22\n' +
+    '    20|       <div class="row mt-3 mb-3">\r\n' +
+    '    21|         <div class="col-lg-4">\r\n' +
+    ' >> 22|           <img width="300" height="300" src="<%= product.img %>" />\r\n' +
+    '    23|         </div>\r\n' +
+    '    24|         <div class="col-lg-8">\r\n' +
+    '    25|           <h1><%= product.name %></h1>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:06:03.428Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:23\n' +
+    '    21|       <div class="row mt-3 mb-3">\r\n' +
+    '    22|         <div class="col-lg-4">\r\n' +
+    ' >> 23|           <img width="300" height="300" src="<%= product.img %>" />\r\n' +
+    '    24|         </div>\r\n' +
+    '    25|         <div class="col-lg-8">\r\n' +
+    '    26|           <h1><%= product.name %></h1>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:07:06.008Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:23\n' +
+    '    21|       <div class="row mt-3 mb-3">\r\n' +
+    '    22|         <div class="col-lg-4">\r\n' +
+    ' >> 23|           <img width="300" height="300" src="<%= product.img %>" />\r\n' +
+    '    24|         </div>\r\n' +
+    '    25|         <div class="col-lg-8">\r\n' +
+    '    26|           <h1><%= product.name %></h1>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:07:25.084Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:19\n' +
+    '    17|   <body>\r\n' +
+    '    18|     <header class="header"><%- include(`./partials/header`) %></header>\r\n' +
+    ' >> 19|     <%console.log(product.img)%>\r\n' +
+    '    20|     <div class="container">\r\n' +
+    '    21|       <div class="row mt-3 mb-3">\r\n' +
+    '    22|         <div class="col-lg-4">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:07:53.434Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:19\n' +
+    '    17|   <body>\r\n' +
+    '    18|     <header class="header"><%- include(`./partials/header`) %></header>\r\n' +
+    ' >> 19|     <%console.log(product.img)%>\r\n' +
+    '    20|     <div class="container">\r\n' +
+    '    21|       <div class="row mt-3 mb-3">\r\n' +
+    '    22|         <div class="col-lg-4">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:08:13.678Z'
+}
+{
+  message: "development undefined Unexpected identifier 'let' in C:\\Users\\damag\\node\\views\\productPage.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-19T01:09:03.994Z'
+}
+{
+  message: "development undefined Unexpected identifier 'let' in C:\\Users\\damag\\node\\views\\productPage.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-19T01:09:08.080Z'
+}
+{
+  message: "development undefined Unexpected identifier 'let' in C:\\Users\\damag\\node\\views\\productPage.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '2024-05-19T01:09:47.940Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:23\n' +
+    '    21|       <div class="row mt-3 mb-3">\r\n' +
+    '    22|         <div class="col-lg-4">\r\n' +
+    ' >> 23|           <img width="300" height="300" src="./<%= product.img %>" />\r\n' +
+    '    24|         </div>\r\n' +
+    '    25|         <div class="col-lg-8">\r\n' +
+    '    26|           <h1><%= product.name %></h1>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:09:59.118Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:23\n' +
+    '    21|       <div class="row mt-3 mb-3">\r\n' +
+    '    22|         <div class="col-lg-4">\r\n' +
+    ' >> 23|           <img width="300" height="300" src="<%= product.img %>" />\r\n' +
+    '    24|         </div>\r\n' +
+    '    25|         <div class="col-lg-8">\r\n' +
+    '    26|           <h1><%= product.name %></h1>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:10:30.875Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\productPage.ejs:19\n' +
+    '    17|   <body>\r\n' +
+    '    18|     <header class="header"><%- include(`./partials/header`) %></header>\r\n' +
+    ' >> 19|     <%console.log(product.img)%>\r\n' +
+    '    20|     <div class="container">\r\n' +
+    '    21|       <div class="row mt-3 mb-3">\r\n' +
+    '    22|         <div class="col-lg-4">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'img')",
+  level: 'error',
+  timestamp: '2024-05-19T01:11:06.385Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminProducts.ejs:45\n' +
+    '    43|             <td>\r\n' +
+    '    44|               <a\r\n' +
+    ' >> 45|                 href="/admin/update/product/<%= brand.id %>"\r\n' +
+    '    46|                 class="btn btn-success"\r\n' +
+    '    47|                 >Изменить</a\r\n' +
+    '    48|               >\r\n' +
+    '\n' +
+    'brand is not defined',
+  level: 'error',
+  timestamp: '2024-05-19T01:29:29.843Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\adminProducts.ejs:45\n' +
+    '    43|             <td>\r\n' +
+    '    44|               <a\r\n' +
+    ' >> 45|                 href="/admin/update/product/<%= brand.id %>"\r\n' +
+    '    46|                 class="btn btn-success"\r\n' +
+    '    47|                 >Изменить</a\r\n' +
+    '    48|               >\r\n' +
+    '\n' +
+    'brand is not defined',
+  level: 'error',
+  timestamp: '2024-05-19T01:30:08.464Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-19T01:31:11.763Z'
+}
+{
+  message: 'development undefined C:\\Users\\damag\\node\\views\\update.ejs:23\n' +
+    "    21|       <%#- include ('./partials/messages') %>\r\n" +
+    '    22|       <p>Заполните форму ниже чтобы изменить пост.</p>\r\n' +
+    ' >> 23|       <form method="post" action="/update/<%= entry.id %>">\r\n' +
+    '    24|         <div class="mb-3">\r\n' +
+    '    25|           <label for="z" class="form-label">Заголовок поста</label>\r\n' +
+    '    26|           <input\r\n' +
+    '\n' +
+    'entry is not defined',
+  level: 'error',
+  timestamp: '2024-05-19T01:36:03.594Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-19T01:51:07.053Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-19T01:51:26.112Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-19T02:02:07.180Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-19T02:13:38.721Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-05-19T02:18:36.736Z'
+}
+{
+  message: 'development undefined Failed to lookup view "order" in views directory "C:\\Users\\damag\\node\\views"',
+  level: 'error',
+  timestamp: '2024-05-19T02:24:46.706Z'
+}

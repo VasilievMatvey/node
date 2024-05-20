@@ -16,13 +16,15 @@ const passportFunctionGoogle = require("./middleware/passport_go");
 const passportFunctionGitHub = require("./middleware/passport_github");
 const passportFunctionVKontakte = require("./middleware/passport_vk");
 const { sequelize } = require("./models/db");
-
+const fileUpload = require("express-fileupload");
 const port = process.env.PORT || "80";
 const logger = require("./logger/index");
 
+app.use(express.json());
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
-
+app.use(express.static(path.resolve(__dirname, "static")));
+app.use(fileUpload({}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));

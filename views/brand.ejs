@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script defer src="/js/bootstrap.js"></script>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <header><%- include ('./partials/header') %></header>
+    <div class="container mt-3 mb-3">
+      <h1><%= title %></h1>
+
+      <p>Заполните форму ниже чтобы добавить бренд</p>
+      <form action="/admin/brands/create" method="post">
+        <div class="mb-3">
+          <label for="z" class="form-label">Название бренда</label>
+          <input
+            type="text"
+            class="form-control"
+            name="brand[name]"
+            id="z"
+            aria-describedby="helpId"
+            placeholder="Название бренда"
+          />
+        </div>
+
+        <button type="submit" value="Brand" class="btn btn-primary">
+          Отправить
+        </button>
+      </form>
+    </div>
+    <footer><%- include ('./partials/footer') %></footer>
+  </body>
+</html>

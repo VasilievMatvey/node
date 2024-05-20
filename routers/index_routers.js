@@ -3,6 +3,9 @@ const router = express.Router();
 const register = require("../controllers/register");
 const login = require("../controllers/login");
 const entries = require("../controllers/entries");
+const brandController = require("../controllers/brandController");
+const productController = require("../controllers/product");
+const ordersContreoller = require("../controllers/orders");
 const validation = require("../middleware/validate_form");
 const validate = require("../middleware/validate");
 const logger = require("../logger");
@@ -14,6 +17,37 @@ router.get("/", (req, res) => {
     title: "Главная",
   });
 });
+
+router.get("/catalog", brandController.list);
+
+router.get("/admin", (req, res) => {
+  res.render("admin", { title: "Админ панель" });
+});
+router.get("/admin/orders", (req, res) => {
+  res.render("adminOrders", {
+    title: "Управление заказами",
+    orders: [ordersContreoller.list],
+  });
+});
+router.get("/admin/brands", brandController.adminList);
+router.get("/admin/brands/create", brandController.form);
+router.post("/admin/brands/create", brandController.submit);
+router.get("/admin/update/brand/:id", brandController.updateForm);
+router.post("/admin/update/brand/:id", brandController.update);
+router.get("/admin/delete/brand/:id", brandController.delete);
+
+router.get("/admin/products", productController.adminList);
+router.get("/admin/products/create", productController.productForm);
+router.post("/admin/products/create", productController.submit);
+router.get("/admin/update/product/:id", productController.updateProductForm);
+router.post("/admin/update/product/:id", productController.updateProduct);
+router.get("/admin/delete/product/:id", productController.delete);
+
+router.get("/product/:id", productController.oneProduct);
+
+router.get("/orders", ordersContreoller.list);
+router.get("/order/id", ordersContreoller.createOrder);
+router.get("/order", ordersContreoller.getOne);
 router.get("/posts", entries.list);
 router.get("/post", entries.form);
 

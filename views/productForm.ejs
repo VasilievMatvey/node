@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script defer src="/js/bootstrap.js"></script>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <header><%- include ('./partials/header') %></header>
+    <div class="container mt-3 mb-3">
+      <h1><%= title %></h1>
+
+      <p>Заполните форму ниже чтобы добавить бренд</p>
+      <form
+        action="/admin/products/create"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <h4>Выберите бренд:</h4>
+        <% brands.forEach((brand)=>{ %>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="brandId"
+            value="<%=brand.id%>"
+            id="flexRadioDefault2"
+            checked
+          />
+          <label class="form-check-label" for="brandId">
+            <%=brand.name%>
+          </label>
+        </div>
+        <% })%>
+        <input
+          class="form-control mt-3"
+          name="name"
+          placeholder="Введите название устройства"
+        />
+        <input
+          class="form-control mt-3"
+          placeholder="Введите стоимость устройства"
+          name="price"
+          type="number"
+        />
+        <input class="form-control mt-3" type="file" name="img" />
+        <button type="submit" value="Product" class="btn btn-primary mt-2">
+          Отправить
+        </button>
+      </form>
+    </div>
+    <footer><%- include ('./partials/footer') %></footer>
+  </body>
+</html>
